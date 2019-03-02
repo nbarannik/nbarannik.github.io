@@ -15,6 +15,12 @@
     padding-bottom: 80px;
 
  }
+
+ input{
+ 	width: 15pt;
+ 	height: 15pt;
+ }
+
 html,
 body {
   height: 100%;
@@ -28,7 +34,7 @@ body {
 /* Правила для шапки */
 .header {
    background: #FFF;
-   height: 70px;
+   height: 70pt;
 }
  
 /* Правила для контента */
@@ -42,8 +48,9 @@ body {
    position: absolute;
    bottom: 0;
    width: 100%;
-   height: 70px;   /* Высота блока footer */
+   height: 70pt;   /* Высота блока footer */
    background: #FFF;
+
 }
 
  body {
@@ -61,7 +68,7 @@ body {
 }
 .otvet_text {
 	color:#FFF;
-	font:bold 14px Tahoma;
+	font:bold 19.6pt Tahoma;
 	cursor: pointer;
 	padding-left:5px;
 }
@@ -74,12 +81,12 @@ body {
 	float:left;
 	color:#5E5C74;
 	padding:20px 0px 0px 40px;
-	font:bold 20px Tahoma;
+	font:bold 20pt Tahoma;
 }
 #top {
 	background-color: #FFFFFF;
 	width:100%;
-	height:80px;
+	height:80pt;
 }
 #right{
 	float:right;
@@ -94,7 +101,7 @@ body {
 }
 .vopros_text {
 	color:#FFF;
-	font:bold 18px Tahoma;
+	font:bold 25pt Tahoma;
 
 }
 .nav {
@@ -103,8 +110,8 @@ body {
 
 }
 .next {
-	height:24px;
-	width:56px;
+	height:31pt;
+	width:66pt;
 	padding-top: 4px;
 	padding-left:10px;
 	padding-right:10px;
@@ -112,7 +119,7 @@ body {
 	background-color: #ff6e77;
 	font-family: 'BS', Roboto, Arial, sans-serif;
 		color: #FFFFFF;
-		font:bold 14px Tahoma;
+		font:bold 14pt Tahoma;
 
 		text-decoration-line: none;	
 		cursor: pointer;
@@ -124,13 +131,13 @@ body {
 .open a {
 	color: #FFFFFF;	
 	text-decoration-line: none;
-	font:bold 14px Tahoma;
+	font:bold 14pt Tahoma;
 }
 
 .open {
 	text-align: center;
-	height:36px;
-	width:100px;
+	height:36pt;
+	width:125pt;
 	padding-top: 8px;
 	padding-left:10px;
 	padding-right:10px;
@@ -140,16 +147,16 @@ body {
 	background-color: #ff6e77;
 	color: #FFFFFF;	
 	text-decoration-line: none;
-	font:bold 14px Tahoma;	
+	font:bold 14pt Tahoma;	
 	cursor: pointer;
    }
 
    #start_text{
 	
 		color:#FFF;
-	font:bold 15px Tahoma;
+	font:bold 20pt Tahoma;
 	padding-left:5px;
-	width:600px;
+	width:600pt;
 	margin: 10% auto;
    }
 
@@ -157,30 +164,30 @@ body {
    	padding-top: 14%;
 
    	text-align: center;
-	font: bolder 19px Tahoma;
+	font: bolder 19pt Tahoma;
 	color: #FFF;
 
    }
 
    #Result_window{
-   	border-radius: 5px;
-   	margin: 200px 650px;
+   	border-radius: 10px;
+   	margin: 10% auto;
    	background-color: #439c38;
-   	height:200px;
-	width:310px;
+   	height:200pt;
+	width:310pt;
    }
 
 	#Text_Result{
 		    padding-top: 10%;
 
    	text-align: center;
-	    font: bold 13px Tahoma;
+	    font: bold 13pt Tahoma;
 	color: #FFF;
 }
 
 	#reload{
-	height:55px;
-	width:56px;
+	height:55pt;
+	width:115pt;
 	padding-top: 4px;
 	padding-left:10px;
 	padding-right:10px;
@@ -188,8 +195,8 @@ body {
 	background-color: #ff6e77;
 	font-family: 'BS', Roboto, Arial, sans-serif;
 	color: #FFFFFF;
-	font:bold 14px Tahoma;
-	margin: 100px;
+	font:bold 14pt Tahoma;
+	margin: 15% auto;
 	text-decoration-line: none;	
 	cursor: pointer;
 	}
@@ -216,7 +223,7 @@ window.onload = function () {
 		Онлайн тестирование по финансовой грамотности.
 	</div>
 	<div id="right">
-		<div style="padding-top:23px;padding-right:5px;text-align:right;font:bold 11px Tahoma;color:#5E5C74; "></div>
+		<div style="padding-top:23px;padding-right:5px;text-align:right;font:bold 11pt Tahoma;color:#5E5C74; "></div>
 	</div>	
     </div>
 
@@ -230,7 +237,7 @@ window.onload = function () {
         	<div class="otvet_vse">
         		<div class="otvet"><input type="radio" name="ot_vopros_1" value="1" /><span class="otvet_text">На полную стоимость кредита</span></div>
         		<div class="otvet"><input type="radio" name="ot_vopros_1" value="2" /><span class="otvet_text">На условия возврата кредита досрочно</span></div>
-        		<div class="otvet"><input type="radio" name="ot_vopros_1" value="3" /><span class="otvet_text">На величину процентной ставки (17%)</span></div>
+        		<div class="otvet"><input type="radio" name="ot_vopros_1" value="3" /><span class="otvet_text">На величину процентной ставки</span></div>
         		<div class="otvet"><input type="radio" name="ot_vopros_1" value="4" /><span class="otvet_text">На все вышеназванное</span></div>
         		<div class="otvet"><input type="radio" name="ot_vopros_1" value="5" /><span class="otvet_text">Не буду смотреть условия кредита, доверяя банку</span></div>
         	</div>
@@ -308,11 +315,11 @@ window.onload = function () {
  <div id="Result_window" style="display:none;">
         	<p id="Result">   </p>
     <p id="Text_Result"> </p>	
-    <div id="reload"  style="display: none;width:100px;" onclick="reload()">Вернуться на главную страницу</div>
+    <div id="reload"  style="display: none;width:115px;" onclick="reload()">Вернуться на главную страницу</div>
  </div>
     
     <div class="footer">
-<div style="float:left;padding-left: 20px;padding-top: 20px;	color:#5E5C74;font:bold 11px Tahoma;">Тест разаботали ученики 8-б класса<br/>Школа 1238</div><div style="float:right;padding-right: 20px;padding-top:20px;color:#5E5C74;font:bold 11px Tahoma;">Баранник Никита<br/>Худяшова Екатерина</div></div>	
+<div style="float:left;padding-left: 20px;padding-top: 20px;	color:#5E5C74;font:bold 11pt Tahoma;">Тест разаботали ученики 8-б класса<br/>Школа 1238</div><div style="float:right;padding-right: 20px;padding-top:20px;color:#5E5C74;font:bold 11pt Tahoma;">Баранник Никита<br/>Худяшова Екатерина</div></div>	
 </div>
 </body>
 </html>
