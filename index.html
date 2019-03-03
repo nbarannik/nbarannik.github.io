@@ -5,7 +5,7 @@
 	<style type="text/css">
  h1{
  	font-family: Century Gothic;
-    
+
 
     align:center;
     margin: 0px;
@@ -25,24 +25,24 @@ html,
 body {
   height: 100%;
 }
- 
+
 .page {
    min-height: 100%;
    position: relative;
 }
- 
+
 /* Правила для шапки */
 .header {
    background: #FFF;
    height: 70pt;
 }
- 
+
 /* Правила для контента */
 .content {
    padding-top: 20px;
    padding-bottom: 50px;
 }
- 
+
 /* Правила для подвала сайта */
 .footer {
    position: absolute;
@@ -121,7 +121,7 @@ body {
 		color: #FFFFFF;
 		font:bold 14pt Tahoma;
 
-		text-decoration-line: none;	
+		text-decoration-line: none;
 		cursor: pointer;
 }
 .next a {
@@ -129,7 +129,7 @@ body {
 }
 
 .open a {
-	color: #FFFFFF;	
+	color: #FFFFFF;
 	text-decoration-line: none;
 	font:bold 14pt Tahoma;
 }
@@ -145,14 +145,14 @@ body {
 	border-radius: 5px;
 	margin:10% auto;
 	background-color: #ff6e77;
-	color: #FFFFFF;	
+	color: #FFFFFF;
 	text-decoration-line: none;
-	font:bold 14pt Tahoma;	
+	font:bold 14pt Tahoma;
 	cursor: pointer;
    }
 
    #start_text{
-	
+
 		color:#FFF;
 	font:bold 20pt Tahoma;
 	padding-left:5px;
@@ -197,7 +197,7 @@ body {
 	color: #FFFFFF;
 	font:bold 14pt Tahoma;
 	margin: 15% auto;
-	text-decoration-line: none;	
+	text-decoration-line: none;
 	cursor: pointer;
 	}
 
@@ -212,19 +212,19 @@ window.onload = function () {
   	elements[i].onclick = function(){
 	    this.previousSibling.checked = true;
   };
-}	 
+}
 }
 </script>
 </head>
 <body>
 <div class="page">
     <div class="header">
-	<div id="left"> 
+	<div id="left">
 		Онлайн тестирование по финансовой грамотности.
 	</div>
 	<div id="right">
 		<div style="padding-top:23px;padding-right:5px;text-align:right;font:bold 11pt Tahoma;color:#5E5C74; "></div>
-	</div>	
+	</div>
     </div>
 
     <div id="start" style="display: block;">
@@ -259,7 +259,7 @@ window.onload = function () {
         		<div class="otvet"><input type="radio" name="ot_vopros_3" value="2" /><span class="otvet_text">равны расходам</span></div>
         		<div class="otvet"><input type="radio" name="ot_vopros_3" value="3" /><span class="otvet_text">меньше расходов</span></div>
         	</div>
-        </div>      
+        </div>
 
         <div id="vopros_4" class="vopros" style="display:none;">
         	<div class="vopros_text">Страховщик -это...</div>
@@ -269,7 +269,7 @@ window.onload = function () {
         		<div class="otvet"><input type="radio" name="ot_vopros_4" value="3" /><span class="otvet_text">специализированная организация, проводящая операции страхования</span></div>
         		<div class="otvet"><input type="radio" name="ot_vopros_4" value="4" /><span class="otvet_text">организация, занимающаяся продажей недвижимости</span></div>
         	</div>
-        </div> 
+        </div>
 
          <div id="vopros_5" class="vopros" style="display:none;">
         	<div class="vopros_text" style="width:50%">Вознаграждение за труд в зависимости от квалификации работника, сложности, количества, качества и условий выполняемой работы, а также компенсационные выплаты и стимулирующие выплаты –это:</div>
@@ -279,7 +279,7 @@ window.onload = function () {
         		<div class="otvet"><input type="radio" name="ot_vopros_5" value="3" /><span class="otvet_text">Процентный доход</span></div>
         		<div class="otvet"><input type="radio" name="ot_vopros_5" value="4" /><span class="otvet_text">Заработная плата</span></div>
         	</div>
-        </div> 
+        </div>
 
         <div id="vopros_6" class="vopros" style="display:none;">
         	<div class="vopros_text" style="width:50%">Представьте, что вы хотите взять в долг 100 000 рублей. Вам предложили деньги или на условиях возврата через год 125 000 рублей, или на условиях возврата через год 100 000 рублей плюс 30 % от суммы долга. Какое из предложений дешевле?</div>
@@ -287,9 +287,9 @@ window.onload = function () {
         		<div class="otvet"><input type="radio" name="ot_vopros_6" value="1" /><span class="otvet_text">Первое</span></div>
         		<div class="otvet"><input type="radio" name="ot_vopros_6" value="2" /><span class="otvet_text">Второе</span></div>
         		<div class="otvet"><input type="radio" name="ot_vopros_6" value="3" /><span class="otvet_text">Одинаково</span></div>
-        	
+
         	</div>
-        </div> 
+        </div>
 
          <div id="vopros_7" class="vopros" style="display:none;">
         	<div class="vopros_text" style="width:50%">Стоит ли брать кредит в банке, который при дифференциальном платеже, предлагает откладывать доплаченные сверху деньги на отдельный счёт?</div>
@@ -297,29 +297,29 @@ window.onload = function () {
         		<div class="otvet"><input type="radio" name="ot_vopros_7" value="1" /><span class="otvet_text">Да</span></div>
         		<div class="otvet"><input type="radio" name="ot_vopros_7" value="2" /><span class="otvet_text">Нет</span></div>
         		<div class="otvet"><input type="radio" name="ot_vopros_7" value="3" /><span class="otvet_text">Не имеет значения</span></div>
-        		
-        		
-        	</div>
-        </div> 
 
-        
-    
+
+        	</div>
+        </div>
+
+
+
 
         <div class="nav">
         	<div id="next" class="next" onclick="next();">Далее</div>
         	<div id="result" class="next" style="display: none;width:100px;" onclick="result();">Проверить</div>
 
-        </div>	
+        </div>
     </div>
 
  <div id="Result_window" style="display:none;">
         	<p id="Result">   </p>
-    <p id="Text_Result"> </p>	
+    <p id="Text_Result"> </p>
     <div id="reload"  style="display: none;width:115px;" onclick="reload()">Вернуться на главную страницу</div>
  </div>
-    
+
     <div class="footer">
-<div style="float:left;padding-left: 20px;padding-top: 20px;	color:#5E5C74;font:bold 11pt Tahoma;">Тест разаботали ученики 8-б класса<br/>Школа 1238</div><div style="float:right;padding-right: 20px;padding-top:20px;color:#5E5C74;font:bold 11pt Tahoma;">Баранник Никита<br/>Худяшова Екатерина</div></div>	
+<div style="float:left;padding-left: 20px;padding-top: 20px;	color:#5E5C74;font:bold 11pt Tahoma;">Тест разработали ученики 8-б класса<br/>Школа 1238</div><div style="float:right;padding-right: 20px;padding-top:20px;color:#5E5C74;font:bold 11pt Tahoma;">Баранник Никита<br/>Худяшова Екатерина</div></div>	
 </div>
 </body>
 </html>
