@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  <style>
+    body{
+      margin: 0;
+    }
+  .wrapper{
+    margin:0;
+    padding:0;
+    background: white;
+    width: 100vh;
+    height: 100vh;
+  }
+
+  input{
+    cursor: pointer;
+    margin: 0 auto;
+    text-align: cemter;
+    width: 7rem;
+    height: 7rem;
+    display:block;
+    background-color: transparent;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 20px;
+  }
+
+  h3{
+    font-family: Arial, sans-serif;
+    margin: 2% 6%;
+    text-align:center;
+  }
+
+  p{
+    margin: -10px 120px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  </style>
+  </head>
+  <body>
+  <div id="wrapper">
+    <h3>Choose your color</h3>
+    <p id="hex">#FFFFFF</p>
+    <input type="color" id="clr" >
+
+  </div>
+  </body>
+  <script type="text/javascript">
+
+    var color = document.getElementById('clr');
+    var hex = document.getElementById('hex');
+
+    function changecolor(){
+      var colorval = color.value;
+      document.body.style.backgroundColor = colorval;
+      hex.innerHTML = colorval;
+    }
+
+    color.addEventListener('change', changecolor, false);
+
+  </script>
+</html>
