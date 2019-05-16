@@ -1,7 +1,7 @@
 body{
   margin: 0;
   padding: 0;
-  background: #3498db;
+  background: #dfe6e9;
 }
 
 *{
@@ -25,7 +25,8 @@ body{
   background: #fff;
   width: 400px;
   height: 300px;
-  transition: transform 0.2s;
+
+  transition: transform 0.3s;
   transform: rotateX(0deg);
 }
 img{
@@ -39,7 +40,7 @@ h1{
   color: #fff;
   font-size: 80px;
   text-align: center;
-  
+
   width: 800px;
   margin: 0 auto;
 }
