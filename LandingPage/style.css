@@ -1,0 +1,395 @@
+*{
+  margin: 0;
+  padding: 0
+
+}
+
+body{
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 500;
+}
+
+.main{
+  height: 100vh;
+  min-height: 600px;
+  width: 100%;
+  background: url(bg.png) no-repeat center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.header{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  width: 95%;
+  height: 10vh;
+}
+.menu ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  list-style: none;
+}
+
+.menu li{
+  transition: 0.3s;
+}
+.menu-link:hover{
+  padding-bottom: 3px;
+  border-bottom:  1px solid #fff;
+}
+
+.menu{
+  width: 60%;
+
+}
+
+.menu-link{
+  text-decoration: none;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.get-started-btn{
+  border: 1px solid white;
+  border-radius: 50px;
+  padding: 20px 38px;
+  font-weight: 700;
+  margin-left: 50px;
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 15px;
+}
+
+.get-started-btn:hover{
+  background: #6e45e2;
+  border: 0px solid #6e45e2;
+  transform: scale(1.5);
+}
+
+.get-started-btn2{
+
+  border-radius: 50px;
+  padding: 20px 38px;
+  font-weight: 700;
+  margin-left: 50px;
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 15px;
+  background: #6e45e2;
+}
+
+.get-started-btn2:hover{
+  transform: scale(1.5);
+}
+
+.main-text{
+  position: relative;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 200px;
+}
+.main-text span{
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+
+}
+
+.main-text span::after{
+  content: '';
+  width: 20px;
+  height: 2px;
+  display: inline-block;
+  background-color: #fff;
+  vertical-align: middle;
+  margin-left: 17px;
+}
+
+.main-text span::before{
+  content: '';
+  width: 20px;
+  height: 2px;
+  display: inline-block;
+  background-color: #fff;
+  vertical-align: middle;
+  margin-right: 17px;
+}
+
+.main-text h1{
+  font-size: 86px;
+  font-weight: 500;
+}
+
+.main-text p{
+  width: 410px;
+  text-align: center;
+}
+
+.main-arrow img{
+
+  transition: 0.2s;
+}
+
+.main-arrow:hover img {
+  transform: scale(1.1);
+
+  opacity: 0.8;
+}
+
+.table{
+  background: #f9fafc;
+  padding: 3rem;
+}
+
+.table-header{
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10vh;
+}
+
+.table-header h2{
+  color: #4f4f6f;
+  font-size: 86px;
+  font-weight: 500;
+
+}
+.table-header span{
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  color: #9fa4af;
+  margin-bottom: 1vh;
+}
+
+.table-header span::after{
+  content: '';
+  width: 20px;
+  height: 2px;
+  display: inline-block;
+  background-color: #fff;
+  vertical-align: middle;
+  margin-left: 17px;
+  background: #6e45e2;
+
+}
+.table-header span::before{
+  content: '';
+  width: 20px;
+  height: 2px;
+  display: inline-block;
+  background-color: #fff;
+  vertical-align: middle;
+  margin-right: 17px;
+  background: #6e45e2;
+
+}
+.table-header p{
+  color: #b6bac2;
+  width: 450px;
+  text-align: center;
+  margin-top: 3vh;
+  font-weight: 400;
+}
+.price-list{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  margin-top: 10vh;
+  background: #f9fafc;
+}
+.price-tag{
+  display:flex;
+  flex-direction: column;
+  padding: 2rem;
+  width: 300px;
+  height: 450px;
+  background: #fff;
+  border-radius: 20px;
+  border: 2px solid #dce0eb;
+  align-items: center;
+  justify-content: space-between;
+  transition: 0.2s;
+  margin-bottom:  10vh;
+}
+
+.price-tag:hover{
+  box-shadow: 0px 0px 81.88px 10.12px rgba(204, 204, 223, 0.71);
+  border: 1px solid #fff;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.sub-title{
+  font-size: 12px;
+  font-weight: 600;
+  color: #9fa4af;
+  text-transform: uppercase;
+  margin-top: 2rem;
+}
+
+.price-tag h4{
+  color: #4f4f6f;
+}
+
+.price-tag p{
+  font-size: 13;
+  color: #9fa4af;
+  font-weight: 500;
+}
+
+.big-num{
+  font-size: 60px;
+  font-weight: 500;
+}
+sup{
+  font-size: 20px;
+  vertical-align: super;
+}
+
+button{
+  background: #fff;
+  border: 1px solid #f2f2f7;
+  padding: 2vh 4vw;
+  border-radius:50px;
+  margin-top: 4vh;
+  color: #c2c9db;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: 0.3s;
+  font-size: 12px;
+
+}
+
+button:hover{
+  background: #6e45e2;
+  border: 0px solid #6e45e2;
+  color:#fff;
+  cursor: pointer;
+}
+
+.big-button{
+  background: #fff;
+  border: 1px solid #f2f2f7;
+  padding: 2vh 2.8vw;
+  border-radius:50px;
+  margin-top: 4vh;
+  color: #c2c9db;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: 0.3s;
+  font-size: 12px;
+}
+
+nav{
+  display: flex;
+  justify-content: center;
+}
+
+nav button{
+  margin-right: 1vw;
+}
+
+.action-menu{
+  background: url(bg2.png) no-repeat center;
+  background-size: cover;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.table-header2{
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10vh;
+}
+
+.table-header2 h2{
+  color: #fff;
+  font-size: 86px;
+  font-weight: 500;
+
+}
+.table-header2 span{
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 1vh;
+}
+
+footer a{
+  color: #000;
+}
+
+.footer-link{
+  text-decoration: none;
+  color: #737380;
+  transition: 0.1s;
+}
+
+.footer-link:hover{
+  color:#6e45e2;
+}
+footer{
+  height: 20vh;
+  margin-left: 4vw;
+}
+.header:last-child{
+  border-bottom: 1px solid red;
+  padding-bottom: 1vh;
+}
+
+.info-block{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5vh;
+  color: #ceced1;
+}
+
+.icons{
+  margin-right: 7vw;
+}
+
+.info-block i{
+  margin-right: 0.5vw;
+  color: #ceced1;
+}
+
+.line{
+  height: 1px;
+  width: 92%;
+  background: #f2f2f3;
+}
+
+@media (max-width: 1199px){
+  html{
+    font-size: 9px;
+  }
+}

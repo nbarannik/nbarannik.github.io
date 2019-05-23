@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>LandingPage</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+      <div class="main">
+        <div class="header">
+          <div class="logo">
+            <img src="logo.png" alt="">
+          </div>
+          <div class="menu">
+            <ul>
+              <li><a href="#" class="menu-link">Home</a></li>
+              <li><a href="#table" class="menu-link">Why MISOCIAL</a></li>
+              <li><a href="#table" class="menu-link">Features</a></li>
+              <li><a href="#table" class="menu-link">Articles</a></li>
+              <li><a href="#price" class="menu-link">Pricing</a></li>
+              <li><a href="#buy" class="get-started-btn ">GET STARTED</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="main-text">
+          <span>SOCIAL MARKETING & ANALYTICS</span>
+          <h1>Pricing Table</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, officia, sapiente! Illo, doloremque ut.</p>
+        </div>
+        <div class="main-arrow">
+          <a href="#table">
+          <img src="DownArrow.png" alt="">
+        </a>
+        </div>
+      </div>
+
+      <script>var linkNav = document.querySelectorAll('[href^="#"]'), //выбираем все ссылки к якорю на странице
+    V = 1;  // скорость, может иметь дробное значение через точку (чем меньше значение - тем больше скорость)
+for (var i = 0; i < linkNav.length; i++) {
+    linkNav[i].addEventListener('click', function(e) { //по клику на ссылку
+        e.preventDefault(); //отменяем стандартное поведение
+        var w = window.pageYOffset,  // производим прокрутка прокрутка
+            hash = this.href.replace(/[^#]*(.*)/, '$1');  // к id элемента, к которому нужно перейти
+        t = document.querySelector(hash).getBoundingClientRect().top,  // отступ от окна браузера до id
+            start = null;
+        requestAnimationFrame(step);  // подробнее про функцию анимации [developer.mozilla.org]
+        function step(time) {
+            if (start === null) start = time;
+            var progress = time - start,
+                r = (t < 0 ? Math.max(w - progress/V, w + t) : Math.min(w + progress/V, w + t));
+            window.scrollTo(0,r);
+            if (r != w + t) {
+                requestAnimationFrame(step)
+            } else {
+                location.hash = hash  // URL с хэшем
+            }
+        }
+    }, false);
+}
+</script>
+
+      <div class="table" name="table"
+      id="table">
+        <div class="table-header">
+          <span class="table-subtitile">MISOCIAL</span>
+          <h2 id="price" name="price">Select a plan</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae rerum facere eligendi saepe voluptatem.</p>
+        </div>
+        <div class="price-list" >
+          <div class="price-tag">
+            <img src="p1.png" alt="">
+
+            <span class="sub-title">Personal</span>
+            <h4>
+
+              <span class="big-num"><sup>$</sup>0</span>
+              /month
+            </h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel libero adipisci aliquam porro tempora, rem officiis numquam Lorem ipsum dolor sit amet. ratione officia hic fugit, doloremque illo esse id nobis possimus doloribus! Reiciendis, ab?</p>
+            <button>select plan</button>
+          </div>
+          <div class="price-tag">
+            <img src="p2.png" alt="">
+            <span class="sub-title">Personal</span>
+            <h4>
+
+              <span class="big-num"><sup>$</sup>29</span>
+              /month
+            </h4>
+            <p>Corporis consequuntur atque ipsam officiis perspiciatis omnis velit obcaecati tenetur vitae ad minima doloribus alias dolores magni hic, quo nesciunt, ea in natus nemo, saepe necessitatibus cum ab? Laudantium, labore.</p>
+            <button>select plan</button>
+          </div>
+          <div class="price-tag">
+            <img src="p3.png" alt="">
+            <span class="sub-title">Personal</span>
+            <h4>
+
+              <span class="big-num"><sup>$</sup>49</span>
+              /month
+            </h4>
+            <p>Voluptas quam accusamus veritatis praesentium suscipit? Unde repudiandae nam saepe a nihil, aliquid.  cupiditate deserunt impedit delectus est, libero eaque aperiam unde, nostrum autem!</p>
+            <button>select plan</button>
+          </div>
+        </div>
+      </div>
+      <div class="action-menu" id="buy" name="buy">
+      <div class="table-header2">
+        <span class="table-subtitile2">SOCAL MARKETING & ANALYTICS
+</span>
+        <h2>Take control of your data</h2>
+
+
+      </div>
+      <nav>
+      <button>Get started</button>
+      <button class="big-button">Explore features</button>
+      </nav>
+      </div>
+      <footer>
+        <div class="header">
+          <div class="logo">
+            <img src="Logo2.png" alt="">
+          </div>
+          <div class="menu">
+            <ul>
+              <li><a href="#" class="footer-link">Home</a></li>
+              <li><a href="#" class="footer-link">Why MISOCIAL</a></li>
+              <li><a href="#" class="footer-link">Features</a></li>
+              <li><a href="#" class="footer-link">Articles</a></li>
+              <li><a href="#" class="footer-link">Pricing</a></li>
+              <li><a href="#" class="get-started-btn2">GET STARTED</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="line"></div>
+        <div class="info-block">
+          <span>© 2017 Mass Impressions & Tranmautritam. Make the right impression.</span>
+      <div class="icons">
+          <a href="https://facebook.com"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+          <a href="https://google.com"><i class="fab fa-google-plus-g"></i></a>
+          <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+      </div>
+        </div>
+      </footer>
+  </body>
+</html>
