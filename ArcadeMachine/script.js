@@ -130,7 +130,7 @@ function move() {
         clearInterval(interval);
         snakeBody[0].style.background = '#693c3c';
         setTimeout(() => {
-          alert('You lose!')
+          alert('You lose! ' +  '   Score: ' + score);
           if(confirm('Reload?')){
             location.reload();
           }
