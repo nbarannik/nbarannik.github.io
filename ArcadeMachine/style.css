@@ -35,10 +35,12 @@ body{
 
 .snake-body{
   background: #1b6125;
+  border: 1px solid red;
 }
 
 .head{
   background: #175220;
+  border: 1px solid red;
 }
 
 .mouse{

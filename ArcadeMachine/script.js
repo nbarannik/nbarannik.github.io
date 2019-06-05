@@ -27,6 +27,8 @@ for(let i=0; i < excel.length; i++){
 let input = document.createElement('input');
 document.body.appendChild(input);
 
+
+
 function generateSnake() {
     let posX = Math.round(Math.random() * (10-3)+3);
     let posY = Math.round(Math.random() * (10-1)+1);
