@@ -34,17 +34,18 @@ body{
 }
 
 .snake-body{
-  background: #1b6125;
-  border: 1px solid red;
+  background: radial-gradient( #1b6125, #0b3b11);
+
 }
 
 .head{
-  background: #175220;
-  border: 1px solid red;
+  background: radial-gradient(#175220, #5c8260);
+
 }
 
 .mouse{
-  background: #b12323;
+  background: radial-gradient(#b12323, #ff4b0e);
+
 }
 
 input{
