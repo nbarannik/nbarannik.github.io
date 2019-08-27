@@ -15,36 +15,36 @@
     </form>
       <table>
         <tr>
-        <td><input class="button" value="C"type="button" onclick="clean()"></td>
-        <td><input class="button" value="<" type="button" onclick="back()"></td>
-        <td><input class="button" value="/" type="button" onclick="insert('/')"></td>
-        <td><input class="button" value="x" type="button" onclick="insert('*')"></td>
+        <td><input class="button" onclick="return isPressed(this)" value="C"type="button" onclick="clean()"></td>
+        <td><input class="button" onclick="return isPressed(this)" value="<" type="button" onclick="back()"></td>
+        <td><input class="button" onclick="return isPressed(this)" value="/" type="button" onclick="insert('/')"></td>
+        <td><input class="button" onclick="return isPressed(this)" value="x" type="button" onclick="insert('*')"></td>
         </tr>
 
         <tr>
-        <td><input class="button" value="7" type="button" onclick="insert(7)"></td>
-        <td><input class="button" value="8" type="button" onclick="insert(8)"></td>
-        <td><input class="button" value="9" type="button" onclick="insert(9)"></td>
-        <td><input class="button" value="-" type="button" onclick="insert('-')"></td>
+        <td><input class="button" onclick="return isPressed(this)" value="7" type="button" onclick="insert(7)"></td>
+        <td><input class="button" onclick="return isPressed(this)" value="8" type="button" onclick="insert(8)"></td>
+        <td><input class="button" onclick="return isPressed(this)" value="9" type="button" onclick="insert(9)"></td>
+        <td><input class="button" onclick="return isPressed(this)" value="-" type="button" onclick="insert('-')"></td>
         </tr>
 
         <tr>
-        <td><input class="button" value="4"type="button" onclick="insert(4)"></td>
-        <td><input class="button" value="5" type="button" onclick="insert(5)"></td>
-        <td><input class="button" value="6" type="button" onclick="insert(6)"></td>
-        <td><input class="button" value="+" type="button" onclick="insert('+')"></td>
+        <td><input class="button" onclick="return isPressed(this)" value="4"type="button" onclick="insert(4)"></td>
+        <td><input class="button" onclick="return isPressed(this)" value="5" type="button" onclick="insert(5)"></td>
+        <td><input class="button" onclick="return isPressed(this)" value="6" type="button" onclick="insert(6)"></td>
+        <td><input class="button" onclick="return isPressed(this)" value="+" type="button" onclick="insert('+')"></td>
         </tr>
 
         <tr>
-        <td><input class="button" value="1"type="button" onclick="insert(1)"></td>
-        <td><input class="button" value="2" type="button" onclick="insert(2)"></td>
-        <td><input class="button" value="3" type="button" onclick="insert(3)"></td>
-        <td rowspan="2"><input style="height:110px;" class="button" value="=" type="button" onclick="equal()"></td>
+        <td><input class="button" onclick="return isPressed(this)" value="1"type="button" onclick="insert(1)"></td>
+        <td><input class="button" onclick="return isPressed(this)" value="2" type="button" onclick="insert(2)"></td>
+        <td><input class="button" onclick="return isPressed(this)" value="3" type="button" onclick="insert(3)"></td>
+        <td rowspan="2"><input style="height:110px;" onclick="return isPressed(this)" class="button" value="=" type="button" onclick="equal()"></td>
         </tr>
 
         <tr>
-        <td colspan="2" ><input style="width:109px" class="button" value="0"type="button" onclick="insert(0)"></td>
-        <td><input class="button" value="." type="button" onclick="insert('.')"></td>
+        <td colspan="2" ><input style="width:109px" onclick="return isPressed(this)" class="button" value="0"type="button" onclick="insert(0)"></td>
+        <td><input class="button" onclick="return isPressed(this)" value="." type="button" onclick="insert('.')"></td>
 
         </tr>
 
