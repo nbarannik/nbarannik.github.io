@@ -1,0 +1,63 @@
+@font-face {
+
+font-family: Pixel; /* Имя шрифта */
+
+src: url(pixel.ttf); /* Путь к файлу со шрифтом */
+
+}
+
+*{
+
+  box-sizing: border-box;
+
+}
+
+body{
+  margin: 100px;
+  background: #c4c3a5;
+}
+
+.field{
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #303030;
+
+}
+
+.excel{
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+}
+
+.snake-body{
+  background: radial-gradient( #1b6125, #0b3b11);
+
+}
+
+.head{
+  background: radial-gradient(#175220, #5c8260);
+
+}
+
+.mouse{
+  background: radial-gradient(#b12323, #ff4b0e);
+
+}
+
+input{
+  margin: 0 auto;
+  margin-top: 60px;
+  font-size: 60px;
+  display: block;
+  width: 300px;
+  height: 70px;
+  background: #819d7e;
+  border: 3px solid #203941;
+  color: #031032;
+  text-align: center;
+  font-family: Pixel, Arial;
+}
