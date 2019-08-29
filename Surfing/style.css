@@ -1,0 +1,446 @@
+
+/* font-family: 'Playfair Display', serif;
+
+  font-family: 'Lato', sans-serif; */
+
+body{
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x:  hidden;
+}
+
+.nav-wrapper{
+  width: 1440px;
+  padding-top: 92px;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: space-between;
+  -ms-align-items: baseline;
+  align-items: baseline;
+  margin-bottom: 210px;
+  height: 1px;
+}
+
+.nav-item{
+font-size:15px ;
+font-family: 'Lato', sans-serif;
+font-weight: 600;
+letter-spacing: 0.3px;
+text-transform: uppercase;
+text-decoration: none;
+color: #aaaaaa;
+margin-right: 70px;
+transition: 0.1s;
+}
+
+.nav-item:last-child{
+  margin-right: 0;
+}
+
+.nav-item:hover{
+  color: #111;
+  font-weight: 700;
+}
+
+.nav-item:active{
+  color: #111;
+  font-weight: 700;
+}
+
+.nav-item:first-child{
+  color: #111;
+  font-weight: 700;
+}
+
+.header-txt{
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 910px;
+  height: 69px;
+
+  height: 200px;
+  text-align: center;
+
+}
+
+h1{
+width: 901px;
+height: 69px;
+color: #000000;
+font-family: "Playfair Display";
+font-size: 70px;
+font-weight: 400;
+line-height: 100px;
+margin-top: -20px;
+}
+
+p{
+font-family: 'Lato', sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+padding: 0;
+margin: 0;
+}
+
+.title-suptxt{
+  width: 584px;
+  height: 47px;
+  color: #999999;
+  margin-left: auto;
+  margin-right: auto;
+  color: #999999;
+}
+
+.VideoBlock{
+
+  margin-top: 200px;
+  height: 440px;
+  margin-left: 82px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+}
+
+.review{
+  height: 404px;
+  width: 276px;
+
+
+}
+
+
+
+h2{
+color: #000000;
+font-family: "Playfair Display";
+font-size: 36px;
+font-weight: 400;
+
+/* Text style for "Recent Rev" */
+letter-spacing: 0.29px;
+height: 48px;
+
+}
+
+.VideoBlock p{
+  color: #999999;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 31px;
+  font-style: italic;
+}
+
+.author{
+color: #000000;
+font-family: 'Lato', sans-serif;
+font-size: 16px;
+font-weight: 900;
+line-height: 31px;
+margin-top: 10px;
+}
+
+.comments{
+  margin-top: 30px;
+  border-bottom: 1px solid #e7e7e7;
+  padding-bottom: 18px;
+  position: relative;
+}
+
+.commas{
+  position: absolute;
+  top: 0;
+  left: -18px;
+  z-index: -1;
+}
+
+.video-item{
+  margin-top: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.videos{
+  margin-right: 120px;
+}
+
+.play-icon{
+  width: 56px;
+  height: 56px;
+  background-color: #fff;
+  border-radius: 50px;
+  display: flex;
+  z-index: 2;
+  cursor: pointer;
+  transition: 0.2s;
+
+}
+
+.play-icon:hover{
+  transform: scale(1.2);
+}
+
+.triangle{
+  width: 0;
+  height: 0;
+
+  border-top: 5.5px solid transparent;
+  border-left: 8px solid #000;
+  border-bottom: 5.5px solid transparent;
+  margin: auto;
+}
+
+.video-item .play-icon{
+  position: absolute;
+  left: -10px;
+  bottom: -15px;
+}
+
+.central-video{
+  position: relative;
+}
+
+.central-video .play-icon{
+  position: absolute;
+  left: 24px;
+  bottom: 32px;
+}
+
+content{
+
+}
+
+.instructors{
+  margin-top: 233px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1053px;
+  text-align: center;
+}
+
+.main-header{
+  /* Style for "Popular In" */
+color: #000000;
+font-family: "Playfair Display";
+font-size: 50px;
+font-weight: 400;
+
+/* Text style for "Popular In" */
+letter-spacing: 0.41px;
+text-align: center;
+}
+
+.photos{
+  margin-top: 80px;
+}
+
+.name{
+  margin-top: 30px;
+  color: #000000;
+  font-family: "Playfair Display";
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 0.28px;
+}
+
+.students{
+  margin-top: 12px;
+  color: #2ab738;
+  font-family: 'Lato';
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.14px;
+  margin-bottom: 250px;
+}
+
+.photos{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.cursive-header{
+margin-top: 51px;
+color: #000000;
+font-family: "Playfair Display";
+font-size: 40px;
+font-style: italic;
+/* Text style for "Lipsum cou" */
+letter-spacing: 0.33px;
+}
+
+.txt p{
+  /* Style for "Lorem ipsu" */
+color: #444444;
+font-family: "Lato";
+font-size: 16px;
+font-weight: 400;
+width: 405px;
+/* Text style for "Lorem ipsu" */
+letter-spacing: 0.06px;
+margin-top: 31px;
+margin-bottom: 56px;
+margin-right: 378px;
+
+}
+
+.blog-card1{
+  margin-top: 91px;
+  margin-left: 75px;
+  display: flex;
+  margin-left: 340px;
+  margin-bottom: 190px;
+}
+
+button{
+
+  width: 141px;
+  height: 52px;
+  border: 1px solid #e5e5e5;
+  background-color: #fff;
+  color: #000000;
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.06px;
+}
+
+.txt{
+  margin-left: 77px;
+}
+
+.blog-card2{
+
+  display: flex;
+  margin-left: 362px;
+  margin-bottom: 259px;
+}
+
+.blog-card2 .txt{
+  margin-left: -15px;
+
+}
+
+.blog-card2 .txt p {
+  margin-right: 140px;
+
+}
+
+.ReadMore{
+  text-align: center;
+}
+
+.ReadMore .main-header{
+  margin-bottom: 69px;
+}
+
+.ReadMore button{
+  /* Style for "Rectangle" */
+width: 180px;
+height: 56px;
+border: 1px solid #41475b;
+background-color: #ffffff;
+margin-bottom: 145px;
+}
+
+.line{
+  /* Style for "Rectangle" */
+width: 1920px;
+height: 1px;
+background-color: #f2ede7;
+margin-bottom: 48px;
+}
+
+.footer-logo{
+  margin-left: 314px;
+  margin-bottom: 38px;
+}
+
+.footer-title{
+  /* Style for "Beach Surf" */
+
+color: #000000;
+font-family: "Playfair Display";
+font-size: 24px;
+font-weight: 600;
+margin-bottom: 16px;
+}
+
+.copyright{
+  /* Style for "Copyright" */
+
+color: #9f9f9f;
+font-family: "Lato";
+font-size: 14px;
+font-weight: 400;
+
+}
+
+.designedBy{
+color: #9f9f9f;
+font-family: "Lato";
+font-size: 14px;
+font-weight: 400;
+margin-right: 340px;
+
+}
+
+.designedBy span{
+  /* Text style for "Rikon Rahm" */
+  color: #000000;
+  font-family: 'Lato';
+  font-weight: 600;
+}
+footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.VideoPlayer{
+  position: fixed;
+  top: 2%;
+  left: 1%;
+  width: 98%;
+  height: 95vh;
+  background: grey;
+  opacity: 0.9;
+  z-index: 5;
+  display: none;
+}
+
+.cross img{
+  width: 8%;
+  transition: 0.2s;
+
+
+}
+
+.cross{
+  cursor:pointer;
+  position: absolute;
+  top: 5vh;
+  right: -37%;
+}
+
+.cross:hover img{
+  transform: scale(1.2);
+}
+
+iframe{
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%);
+  opacity: 1;
+  z-index: 10;
+  position: fixed;
+  display: none;
+}

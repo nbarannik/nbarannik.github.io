@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Long Beach Surfing</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,900|Playfair+Display:400,400i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    
+  </head>
+  <body>
+
+    <!-- Header Start -->
+  <header>
+    <div class="nav-wrapper">
+        <div class="logo">
+          <a href="#">
+          <img src="images/logo.svg" alt="Long Beach Surfing Institute">
+          </a>
+        </div>
+        <nav>
+        <a href="#" class="nav-item"> Home </a>
+        <a href="#instructors" class="nav-item"> About </a>
+        <a href="#Blog" class="nav-item"> Blog </a>
+        <a href="#footer" class="nav-item"> Contact </a>
+        </nav>
+    </div>
+
+    <div class="header-txt">
+  <h1>  Long Beach Surfing Institute</h1>
+  <p class='title-suptxt'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+    </div>
+  </header>
+  <!-- Header End -->
+
+
+
+  <!-- Content Start -->
+  <content>
+
+
+  <!-- VideoBlock -->
+
+
+    <div class="VideoBlock">
+  <!-- Review -->
+      <div class="review">
+          <h2>Recent Reviews</h2>
+          <div class="comments">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed incididunt ut labore et dolore magn.</p>
+              <p class="author">-  Steve Woz</p>
+              <img class="commas" src="commas.svg" alt="">
+          </div>
+          <div class="comments">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed incididunt ut labore et dolore magn.</p>
+              <p class="author">-  David Columm</p>
+              <img class="commas" src="commas.svg" alt="">
+
+          </div>
+          <p></p>
+      </div>
+  <!-- Central Video -->
+      <div class="central-video">
+        <img style="height:440px;" src="images/img-1.jpg" alt="Video">
+      <a  onclick="OpenVideo()">  <div class="play-icon"><div class="triangle"></div></div></a>
+      </div>
+  <!-- Video Right -->
+      <div class="videos">
+            <h2>User Videos</h2>
+            <div class="video-item">
+              <a  onclick="OpenVideo()"><div class="play-icon"><div class="triangle"></div></div></a>
+              <img src="images/img-2.jpg" alt="">
+            </div>
+            <div class="video-item">
+              <a  onclick="OpenVideo()"><div class="play-icon"><div class="triangle"></div></div></a>
+                <img src="images/img-3.jpg" alt="">
+            </div>
+      </div>
+    </div>
+
+
+    <!-- Instuctors -->
+      <div class="instructors" id="instructors">
+        <div class="main-header">Popular Instructors</div>
+          <div class="photos">
+
+              <div class="instructor-item">
+                    <img src="images/img-4.jpg" alt="">
+                    <div class="name">Simon Edward</div>
+                    <div class="students">5,000 students</div>
+              </div>
+
+              <div class="instructor-item">
+                    <img src="images/img-5.jpg" alt="">
+                    <div class="name">Elliana D’Soza</div>
+                    <div class="students">4,350 students</div>
+              </div>
+
+              <div class="instructor-item">
+                    <img src="images/img-6.jpg" alt="">
+                    <div class="name">Joseph Bardon</div>
+                    <div class="students">3,248 students</div>
+              </div>
+          </div>
+      </div>
+
+    <!-- Blog   -->
+      <div class="Blog" id="Blog">
+          <div class="main-header">Recent Blogs by User</div>
+          <div class="blog-card1">
+              <img src="images/img-7.jpg" alt="img">
+              <div class="txt">
+                  <div class="cursive-header">Lipsum cound be headline </div>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                  <button>Read More</button>
+              </div>
+            </div>
+              <div class="blog-card2">
+
+                  <div class="txt">
+                      <div class="cursive-header">Lipsum cound be headline </div>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                      <button>Read More</button>
+                  </div>
+                  <img src="images/img-8.jpg" alt="img">
+          </div>
+          <div class="ReadMore">
+            <div class="main-header">Aren’t you intrested Yet!!</div>
+            <button>Enroll Now</button>
+            <div class="line"></div>
+          </div>
+      </div>
+  </content>
+    <!-- Footer -->
+    <footer id = "footer">
+      <div class="footer-logo">
+        <p class="footer-title">Beach Surfing</p>
+        <p class="copyright">Copyright © 2018 All Rights Reserved.</p>
+      </div>
+      <div class="designedBy">
+        <p>Designed by  <span>Rikon Rahman</span></p>
+    </div>
+      <i class="fa fa-times" aria-hidden="true"></i>
+    </footer>
+
+    <div class="VideoPlayer vid" >
+    <a onclick = "CloseVideo()" class="cross" ><img src="images/cross.png" alt=""></a>
+    </div>
+
+    <iframe class="vid" width="70%"  height="80%"  src="https://www.youtube.com/embed/W7h-Yho8EB0?controls=0&mute=1&autoplay=1&iv_load_policy=3" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <script type="text/javascript" src = "VideoOpen.js"></script>
+    <script type="text/javascript" src="SlideMoving.js">
+
+    </script>
+  </body>
+</html>
