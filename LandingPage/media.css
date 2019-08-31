@@ -1,0 +1,26 @@
+@media (max-width: 1199px){
+    html{
+      font-size: 12px;
+
+    }
+    .visible-lg{
+    display: none;
+    }
+    .mobile-menu-btn{
+      display: block;
+    }
+
+}
+
+@media (max-width: 991px){
+    html{
+      font-size: 9px;
+
+    }
+    .visible-lg{
+    display: none;
+    }
+    .mobile-menu-btn{
+      display: block;
+    }
+}
