@@ -344,6 +344,8 @@ nav button{
   margin-bottom: 1vh;
 }
 
+
+
 footer a{
   color: #000;
 }
@@ -400,6 +402,8 @@ footer{
   display: none;
 }
 
+
+
 .mobile-menu-btn span::before,
 .mobile-menu-btn span::after,
 .mobile-menu-btn span{
@@ -449,7 +453,7 @@ footer{
   justify-content: center;
   -ms-align-items: center;
   align-items: center;
-  overflow: hidden;
+
 }
 
 .mobile-menu-links{

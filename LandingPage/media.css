@@ -1,3 +1,5 @@
+
+
 @media (max-width: 1199px){
     html{
       font-size: 12px;
@@ -9,6 +11,18 @@
     .mobile-menu-btn{
       display: block;
     }
+
+    .price-tag{
+      width: 200px;
+
+        }
+
+        .table-header2 h2{
+
+
+          font-size: 70px;
+        }
+
 
 }
 
@@ -22,5 +36,125 @@
     }
     .mobile-menu-btn{
       display: block;
+
     }
+    .price-list{
+      flex-direction: column;
+      padding-bottom: 40px;
+    }
+
+    .price-tag{
+      width: 85%;
+      height: 35vh;
+      margin: 2rem auto;
+      font-size: 15px;
+        }
+        .main-text h1{
+          font-size: 110px;
+        }
+    .main-text p{
+      font-size: 16px;
+    }
+
+    .main-text span{
+      font-size: 23px;
+    }
+
+    .main-arrow{
+      transform: scale(1.5);
+      margin-bottom: 20px;
+    }
+    .logo{
+      transform: scale(1.5);
+      margin-left: 55px;
+    }
+    .mobile-menu{
+      transform: scale(1.5);
+      margin-right: 80px;
+    }
+
+    .table-header span{
+      font-size: 25px;
+    }
+
+    .table-header p{
+      font-size: 16px;
+    }
+
+    .price-tag button{
+      transform: scale(1.2);
+      margin-bottom: 40px;
+    }
+
+    .price-tag h4{
+      font-size: 30px;
+    }
+    .price-list{
+      margin-top: 5vh;
+    }
+
+    .price-tag p{
+      width: 300px;
+      padding-top: 10px;
+    }
+    .price-tag img{
+      transform: scale(1.2);
+      margin-top: 20px;
+    }
+
+    .table-header2 span{
+      font-size: 25px;
+      margin-top: -20px;
+    }
+
+    .table-header2 h2{
+
+
+      font-size: 70px;
+    }
+
+    .table-header2{
+      padding-top: 0;
+    }
+
+    nav button{
+      margin-right: 3vh;
+    }
+
+    footer .menu{
+      display: none;
+    }
+
+    footer .header{
+      justify-content: center;
+    }
+
+    .line{
+      background-color:  grey;
+    }
+
+    .info-block {
+      font-size: 16px;
+    }
+
+    .info-block .icons{
+      transform: scale(1.5);
+      cursor: pointer;
+      margin-right: 100px;
+    }
+}
+
+@media (max-width: 750px){
+  .mobile-menu{
+    transform-origin: center;
+    transform:scale(1.2);
+    padding-right: 20px;
+  }
+
+  .main-text h1{
+    font-size: 110px;
+  }
+
+
+
 }
