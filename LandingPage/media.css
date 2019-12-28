@@ -45,7 +45,7 @@
 
     .price-tag{
       width: 85%;
-      height: 35vh;
+      height: 60vh;
       margin: 2rem auto;
       font-size: 15px;
         }
@@ -78,16 +78,16 @@
     }
 
     .table-header p{
-      font-size: 16px;
+      font-size: 20px;
     }
 
     .price-tag button{
-      transform: scale(1.2);
+      transform: scale(1.2) scaleX(1.2);
       margin-bottom: 40px;
     }
 
     .price-tag h4{
-      font-size: 30px;
+      font-size: 50px;
     }
     .price-list{
       margin-top: 5vh;
@@ -103,7 +103,7 @@
     }
 
     .table-header2 span{
-      font-size: 25px;
+      font-size: 40px;
       margin-top: -20px;
     }
 

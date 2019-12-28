@@ -1,0 +1,65 @@
+body{
+  margin: 0;
+  padding: 0;
+  height: 3000px;
+}
+
+
+header{
+  background: url(images/HeaderBG.png) no-repeat;
+  background-position: top center;
+  background-size: 100% 90%;
+  height: 110vh;
+}
+
+#logo{
+  transform: scale(0.8);
+  margin-top: -1%;
+  margin-left: 2%;
+}
+.m-menu{
+  display: none;
+}
+nav{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: space-between;
+  -ms-align-items: center;
+  align-items: center;
+}
+
+.menu-item{
+  text-decoration: none;
+  color: #FFF;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+.active{
+  color: #d78c00;
+}
+
+.menu{
+  width: 40vw;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: space-around;
+}
+
+.header-txt{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  color: #FFF;
+}
+
+a:active{
+  color: #eaaa32;
+}
+
+  .header-txt h1{
+    font-size: 4.5rem;
+    margin-bottom: 1vh;
+  }
