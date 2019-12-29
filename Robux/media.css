@@ -1,21 +1,27 @@
-@media (max-width: 620px) and (min-width: 320px){
+@media (max-width: 620px) and (min-width: 360px){
   header{
-    height: 60vh;
+    height: 80vh;
+    background: url(images/HeaderBG.png) no-repeat;
+    background-position: top center;
+    background-size: 140% 90%;
   }
   .header-txt h1{
-    margin-top: 8%;
+    margin-top: 15%;
     margin-bottom: 5%;
-    font-size: 1.5rem;
+    font-size: 2.6rem;
   }
   #logo{
-    transform: scale(0.4);
+    transform: scale(0.5);
     margin-top: -10%;
     margin-left: -10%;
   }
+
   .m-menu{
     display: block;
     margin-right: 4%;
-    margin-top: 12%;
+    margin-top: 8%;
+    height: 50px;
+    width: 50px;
   }
   nav{
     justify-content: space-between;
@@ -28,22 +34,31 @@
   }
 
   .header-txt p{
-    font-size: 0.7rem;
+    font-size: 1rem;
   }
 }
 
-@media (max-width: 320px){
+@media (max-width: 360px){
   #logo{
-    margin-top: -17%;
-    margin-left: -17%;
+    margin-top: -10%;
+    margin-left: -10%;
   }
   .header-txt h1{
-    font-size: 1.5rem;
+    margin-top: 10vh;
+    font-size: 2.2rem;
     }
 
   .header-txt p{
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
+  header{
+    height: 80vh;
+    background: url(images/HeaderBG.png) no-repeat;
+    background-position: top center;
+    background-size: 140% 90%;
+  }
+
+
 }
 
 @media (max-width: 820px) and (min-width: 620px){
@@ -53,8 +68,18 @@
 
     .m-menu{
       display: block;
+      margin-right: 8%;
+      transform: scale(1.8);
+    }
+
+
+
+    .header-txt h1{
+      font-size: 4rem;
+      }
+
+    .header-txt p{
       font-size: 1.5rem;
-      margin-right: 5%;
     }
 
     #logo{
@@ -64,10 +89,9 @@
     .menu{
       display: none;
     }
+
 }
 
 @media (max-width: 1280px) and (min-width: 820px){
-  header{
-    height: 60vh;
-  }
+
 }
