@@ -16,10 +16,9 @@
     margin-left: -10%;
   }
 
-  .m-menu{
+  .m-menu-btn{
     display: block;
-    margin-right: 4%;
-    margin-top: 8%;
+
     height: 50px;
     width: 50px;
   }
@@ -66,9 +65,9 @@
       height: 80vh;
     }
 
-    .m-menu{
+    .m-menu-btn{
       display: block;
-      margin-right: 8%;
+      
       transform: scale(1.8);
     }
 
