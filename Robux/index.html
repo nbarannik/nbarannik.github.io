@@ -43,15 +43,15 @@
 
       <div class="input-section">
         <img src="nicknameIcon.png"  alt="">
-        <input type="text" name="name" placeholder="Введите ваш ник в игре" value="">
+        <input id="NicknameInp"type="text" name="name" placeholder="Введите ваш ник в игре" value="">
       </div>
 
       <div class="input-section">
         <img src="MoneyIcon.png"  alt="">
-        <input type="text" name="name" placeholder="Введите кол-во робаксов" value="">
+        <input id="MoneyInp" type="text" name="name" placeholder="Введите кол-во робаксов" value="">
       </div>
 
-      <p id="money">Кол-во <span> 0 </span> шт. Стоимость <span> 0 </span> р.</p>
+      <p id="money">Кол-во <span id="roblox"> 0 </span> шт. Стоимость <span id='rubles'> 0 </span> р.</p>
       <button class="buy-btn">Купить</button>
       <img src="corner-bottom.png" id="corner-bottom"alt="">
     </form>
@@ -62,5 +62,6 @@
     <a href="#"><img style="padding-right: 5%" src="documents.png" alt="">Пользовательское соглашение</a>
   </footer>
   </body>
-  <script type="text/javascript" src="script.js"></script>
+  <script type="text/javascript" src="MoneyCounter.js"></script>
+  <script type="text/javascript" src="MenuScript.js"></script>
 </html>

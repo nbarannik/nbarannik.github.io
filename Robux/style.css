@@ -52,7 +52,7 @@ form{
   height: 200px;
   width: 200px;
   margin-left: -80%;
-  margin-top: -2%;
+  margin-top: -1%;
 }
 .mobile-menu{
   display: none;
@@ -94,6 +94,8 @@ form p{
   color: #aad9da;
 }
 
+
+
 footer {
   display: -webkit-flex;
   display: -ms-flex;
@@ -115,7 +117,9 @@ footer a{
   display: flex;
   -ms-align-items: center;
   align-items: center;
+  transition: 0.3s;
 }
+
 
 .input-section{
   display: -webkit-flex;
@@ -129,15 +133,19 @@ footer a{
 }
 
 input{
+  margin-left: 15px;
   height: 8vh;
   width: 90%;
   font-family: 'Montserrat';
   font-weight: 500;
+  font-size: 1rem;
   background: #FFF;
   border: 3px solid #fedc8d;
   border-radius: 10px;
   padding-left: 3%;
   font-style: 1rem;
+  outline: 0;
+  user-select: none;
 }
 
 .icon{
@@ -160,6 +168,14 @@ input{
   width: 20%;
   padding: 2.5vh;
   font-size: 1.2rem;
+  outline: 0;
+  user-select: none;
+  transition: 0.3s;
+}
+
+.buy-btn:hover{
+  transform: scale(1.1);
+  background: #feca57;
 }
 
 .m-menu-btn{
@@ -174,6 +190,9 @@ input{
   display: none;
   right: 3%;
   top: 5%;
+  outline: 0;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .menu-content{
@@ -194,7 +213,6 @@ input{
   background: #fdcb6e;
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
-
   box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.3);
 }
 
@@ -253,6 +271,11 @@ nav{
   color: #FFF;
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
+  transition: 0.5s;
+}
+
+.menu-item:hover{
+  color: #636e72;
 }
 
 .active{
