@@ -1,0 +1,643 @@
+@media (max-width: 620px) and (min-width: 360px){
+  .clients p{
+
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: -20%;
+  }
+  .clients{
+    height: 40vh;
+  }
+  .vk{
+    height: 135vh;
+    margin-top: 20vh ;
+    margin-bottom: 20vh ;
+  }
+
+  .vk-sect{
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .vk-sect img{
+    transform: scale(0.5);
+    margin-top: -80px;
+  }
+
+
+  .sm-header{
+    font-size: 1.8rem;
+  }
+
+  .vk-sect .sm-header{
+    margin-bottom: 0vh;
+  }
+  .txt{
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .txt h4{
+    font-size: 1.6rem;
+  }
+  .txt p{
+    text-align: center;
+    width: 300px;
+    font-size: 1.5rem;
+  }
+  .cards{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card{
+    width: 60%;
+    height: 40%;
+    padding: 1%;
+    margin-bottom: 5vh;
+  }
+
+  .button{
+    width: 50%;
+    padding: 2.5vh;
+    font-size: 1.2rem;
+    outline: 0;
+    user-select: none;
+
+  }
+
+  .about{
+    height: 150vh;
+  }
+  footer a img{
+    transform: scale(0.6);
+  }
+  section{
+    height: 100vh;
+  }
+
+  footer{
+    height: 30vh;
+  }
+
+  footer a{
+    font-size: 0.8rem;
+    margin-bottom: 3vh;
+  }
+
+  header{
+    height: 80vh;
+    background: url(images/HeaderBG.png) no-repeat;
+    background-position: top center;
+    background-size: 140% 90%;
+  }
+  .header-txt h1{
+    margin-top: 15%;
+    margin-bottom: 5%;
+    font-size: 2.6rem;
+  }
+  #logo{
+    transform: scale(0.5);
+    margin-top: -5%;
+    margin-left: -5% ;
+  }
+
+  .m-menu-btn{
+    display: block;
+    height: 50px;
+    width: 50px;
+  }
+
+  .mobile-menu{
+    display: block;
+  }
+
+  nav{
+    justify-content: space-between;
+    -ms-align-items: flex-start;
+    align-items: flex-start;
+    height: 13vh;
+  }
+  .menu{
+    display: none;
+  }
+
+  .header-txt p{
+    font-size: 1rem;
+  }
+  .menu-content{
+    display: hidden;
+  }
+}
+
+@media (max-width: 360px){
+  .clients p{
+
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: -20%;
+  }
+  .clients{
+    height: 40vh;
+  }
+  .vk{
+    height: 135vh;
+    margin-top: 20vh ;
+    margin-bottom: 20vh ;
+  }
+
+  .vk-sect{
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+
+  .vk-sect img{
+    transform: scale(0.5);
+    margin-top: -80px;
+  }
+
+
+  .sm-header{
+    font-size: 1.8rem;
+  }
+
+  .vk-sect .sm-header{
+    margin-bottom: 0vh;
+  }
+  .txt{
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .txt h4{
+    font-size: 1.6rem;
+  }
+  .txt p{
+    text-align: center;
+    width: 300px;
+    font-size: 1.5rem;
+  }
+
+  html,body{
+    overflow-x: hidden;
+  }
+  .card h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #383838;
+    font-size: 1.3rem;
+    margin: 0;
+    padding-bottom: 2vh;
+  }
+
+  .card p{
+    text-align: center;
+    width: 90%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #383838;
+    font-size: 1rem;
+  }
+
+  .about h2{
+    font-size: 1.5rem;
+  }
+
+  .cards{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card{
+    width: 60%;
+    height: 40%;
+    padding: 1%;
+    margin-bottom: 5vh;
+  }
+
+  .button{
+    width: 60%;
+    padding: 2.5vh;
+    font-size: 1.2rem;
+    outline: 0;
+    user-select: none;
+
+  }
+
+  .about{
+    height: 170vh;
+  }
+
+  footer a img{
+    transform: scale(0.6);
+  }
+  footer a{
+    font-size: 0.8rem;
+    margin-bottom: 2vh;
+    margin-left: 5%;
+  }
+
+  section{
+    height: 100vh;
+  }
+
+  footer{
+    height: 25vh;
+  }
+
+  #logo{
+    margin-top: -10%;
+    margin-left: -10%;
+  }
+  .header-txt h1{
+    margin-top: 10vh;
+    font-size: 2.2rem;
+    }
+
+    .mobile-menu{
+      display: block;
+    }
+
+  .header-txt p{
+    font-size: 0.9rem;
+  }
+  header{
+    height: 80vh;
+    background: url(images/HeaderBG.png) no-repeat;
+    background-position: top center;
+    background-size: 140% 90%;
+  }
+
+  #corner-top,
+  #corner-bottom{
+    display: none;
+  }
+
+
+}
+
+@media (max-width: 320px){
+  .clients p{
+
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: -20%;
+  }
+  .clients{
+    height: 40vh;
+  }
+  .vk{
+    height: 135vh;
+    margin-top: 20vh ;
+    margin-bottom: 20vh ;
+  }
+
+  .clients p{
+
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: -20%;
+  }
+  .clients{
+    height: 40vh;
+  }
+
+  .vk-sect{
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .vk{
+    height: 200vh;
+  }
+
+  .vk-sect img{
+    transform: scale(0.5);
+    margin-top: -80px;
+  }
+
+
+  .sm-header{
+    font-size: 1.8rem;
+  }
+
+  .vk-sect .sm-header{
+    margin-bottom: 0vh;
+  }
+  .txt{
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .txt h4{
+    font-size: 1.6rem;
+  }
+  .txt p{
+    text-align: center;
+    width: 300px;
+    font-size: 1.5rem;
+  }
+
+  .card h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #383838;
+    font-size: 1.3rem;
+    margin: 0;
+    padding-bottom: 2vh;
+  }
+
+  .card p{
+    text-align: center;
+    width: 90%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #383838;
+    font-size: 1rem;
+  }
+
+  .about h2{
+    font-size: 1.5rem;
+  }
+
+  .cards{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card{
+    width: 60%;
+    height: 40%;
+    padding: 1%;
+    margin-bottom: 5vh;
+  }
+
+  .button{
+    width: 60%;
+    padding: 2.5vh;
+    font-size: 1.2rem;
+    outline: 0;
+    user-select: none;
+
+  }
+
+  .about{
+    height: 170vh;
+  }
+
+  html{
+    width: 119%;
+  }
+  footer a img{
+    transform: scale(0.6);
+  }
+
+  footer a{
+    font-size: 0.8rem;
+    margin-bottom: 3vh;
+  }
+
+  section{
+    height: 100vh;
+  }
+
+  footer{
+    height: 30vh;
+  }
+
+  section{
+    height: 100vh;
+  }
+
+
+  body{
+    width: 100%;
+  }
+  #logo{
+    transform: scale(0.5);
+    margin-top: -10%;
+    margin-left: -10%;
+  }
+  .header-txt h1{
+    margin-top: 0vh;
+    font-size: 2.2rem;
+    }
+
+    .mobile-menu{
+      position: absolute;
+      top: 30;
+      right: 0;
+      display: block;
+    }
+
+  .header-txt p{
+    font-size: 0.9rem;
+  }
+
+
+  header{
+    width: 380px;
+    height: 80vh;
+    background: url(images/HeaderBG.png) no-repeat;
+    background-position: top center;
+    background-size: 100% 100%;
+  }
+  .menu{
+    display: none;
+  }
+
+  .m-menu-btn{
+    display: block;
+    height: 50px;
+    width: 50px;
+  }
+
+  .mobile-menu{
+    width: 100%;
+    right: -30;
+  }
+
+}
+
+@media (max-width: 820px) and (min-width: 620px){
+  .clients p{
+
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: -20%;
+  }
+  .clients{
+    height: 40vh;
+  }
+  .vk{
+    height: 135vh;
+    margin-top: 20vh ;
+    margin-bottom: 20vh ;
+  }
+  .vk-sect{
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .vk{
+    height: 200vh;
+  }
+
+  .vk-sect img{
+    transform: scale(0.5);
+    margin-top: -80px;
+  }
+
+
+  .sm-header{
+    font-size: 1.8rem;
+  }
+
+  .vk-sect .sm-header{
+    margin-bottom: 0vh;
+  }
+  .txt{
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .txt h4{
+    font-size: 1.6rem;
+  }
+  .txt p{
+    text-align: center;
+    width: 300px;
+    font-size: 1.5rem;
+  }
+
+  .about{
+    height: 120vh;
+  }
+  .card h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #383838;
+    font-size: 1.3rem;
+    margin: 0;
+    padding-bottom: 2vh;
+  }
+
+  .card p{
+    text-align: center;
+    width: 90%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #383838;
+    font-size: 1rem;
+  }
+
+  .about h2{
+    font-size: 1.5rem;
+  }
+
+  .cards{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card{
+    width: 60%;
+    height: 40%;
+    padding: 1%;
+    margin-bottom: 5vh;
+  }
+
+  footer a{
+    font-size: 0.8rem;
+    margin-bottom: 3vh;
+  }
+
+  footer a img{
+    transform: scale(0.6);
+  }
+
+  section{
+    height: 100vh;
+  }
+
+  footer{
+    height: 30vh;
+  }
+    header{
+      height: 80vh;
+    }
+
+    .m-menu-btn{
+      display: block;
+      transform: scale(1.8);
+    }
+
+    .mobile-menu{
+      display: block;
+    }
+
+    .header-txt h1{
+      margin-bottom: 5vh;
+      font-size: 4rem;
+      }
+
+    .header-txt p{
+      font-size: 1.5rem;
+    }
+
+    #logo{
+      transform: scale(0.8);
+    }
+
+    .menu{
+      display: none;
+    }
+
+    #corner-top,
+    #corner-bottom{
+      display: none;
+    }
+
+
+}
+
+@media (max-width: 1280px) and (max-height: 1366px) and (min-width: 820px){
+  section{
+    height: 100vh;
+  }
+
+  header{
+    height: 80vh;
+  }
+  .header-txt h1{
+    margin-top: 10vh;
+    font-size: 4rem;
+    }
+}
