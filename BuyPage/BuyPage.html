@@ -1,0 +1,73 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Roblox Range - магазин робаксов</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen" href="media.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500,900&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <div class="figures">
+    <img src="images/spalsh.png" style="position:absolute; top: 110vh;" alt="">
+    <img src="images/cube.png" style="position:absolute; top: 150vh; left: 90%; transform:scale(0.8);" alt="">
+    <img src="images/triangle.png" style="position:absolute; top: 200vh; left: 2%; transform:scale(0.8);" alt="">
+    </div>
+  <header>
+    <nav>
+    <img id="logo" src="images/Logo.png" alt="">
+  <div class="mobile-menu">
+    <button onclick="MenuAnim();" class="m-menu-btn">
+      <span></span>
+    </button>
+    <div class="menu-content">
+      <a href="https://vk.com/robloxrange">Группа вк</a>
+      <a href="#">Купить Робаксы</a>
+      <a href="#">Главная</a>
+    </div>
+  </div>
+    <div class="menu">
+    <a class="menu-item active"  href="https://vk.com/robloxrange">Купить Робаксы</a>
+    <a class="menu-item" href="#">Главная</a>
+    <a class="menu-item" href="#">Группа вк</a>
+    </div>
+    </nav>
+    <div class="header-txt">
+    <h1>Купить ROBUX</h1>
+    <p>У нас вы сможете приобрести игровую валюту для игры roblox.com</p>
+    </div>
+  </header>
+
+  <section>
+
+    <form action="">
+      <img src="images/corner-top.png" id="corner-top" alt="">
+      <h2>Покупка Робаксов</h2>
+      <p>В наличии <span> 100 </span> Робаксов</p> <!-- Здесь информация о кол-ве робаксов должна подгружаться с сервера -->
+      <div class="txt"><img src="images/warning.png"  class="icon"alt=""><p>Для получения валюты нужно присоединится к <a href="https://vk.com/robloxrange">группе</a></p></div>
+
+      <div class="input-section">
+        <img src="images/nicknameIcon.png"  alt="">
+        <input id="NicknameInp"type="text" name="name" placeholder="Введите ваш ник в игре" value="">
+      </div>
+
+      <div class="input-section">
+        <img src="images/MoneyIcon.png"  alt="">
+        <input id="MoneyInp" type="text" name="name" placeholder="Введите кол-во робаксов" value="">
+      </div>
+
+      <p id="money">Кол-во <span id="roblox"> 0 </span> шт. Стоимость <span id='rubles'> 0 </span> р.</p>
+      <button class="buy-btn">Купить</button>
+      <img src="images/corner-bottom.png" id="corner-bottom"alt="">
+    </form>
+
+  </section>
+
+  <footer>
+    <a href="#"><img style="padding-right: 5%" src="images/documents.png" alt="">Пользовательское соглашение</a>
+  </footer>
+  </body>
+  <script type="text/javascript" src="js/MoneyCounter.js"></script>
+  <script type="text/javascript" src="js/MenuScript.js"></script>
+</html>
