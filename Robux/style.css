@@ -194,6 +194,7 @@ a:active{
 
 .about img{
   transform: scale(0.8);
+  opacity: 1;
 }
 .cards{
   display: -webkit-flex;
