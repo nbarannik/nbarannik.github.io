@@ -94,9 +94,15 @@
   #corner-bottom{
     display: none;
   }
+  #MoneyInp{
+    margin-left: 3%;
+  }
 }
 
 @media (max-width: 360px){
+  #MoneyInp{
+    margin-left: -1.9%;
+  }
   form{
     height: 90vh;
     width: 90%;
@@ -160,6 +166,7 @@
   .buy-btn{
     width: 50%;
   }
+
   .input-section{
     width: 92%;
   }
@@ -181,6 +188,9 @@
 }
 
 @media (max-width: 320px){
+  #MoneyInp{
+    margin-left: -1.9%;
+  }
   form{
     height: 90vh;
     width: 90%;
