@@ -1,4 +1,10 @@
 @media (max-width: 620px) and (min-width: 360px){
+  .icon{
+  margin-left: 10px;
+  }
+  .icon{
+    margin-right: -50px;
+  }
   .figures{
     display: none;
   }

@@ -86,8 +86,8 @@ form p{
   display: -ms-flex;
   display: flex;
   align-items: center;
-  text-align: center;
-      margin-left: 5%;
+  
+  margin-left: 5%;
 }
 
 .txt p{
