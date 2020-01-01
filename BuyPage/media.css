@@ -33,9 +33,9 @@
   }
   form{
     height: 90vh;
-    width: 80%;
+    width: 90%;
     border: 3px solid #fedc8d;
-    transform: scale(0.99);
+    transform: scale(1);
   }
 
   form h2{
@@ -97,7 +97,7 @@
 @media (max-width: 360px){
   form{
     height: 90vh;
-    width: 80%;
+    width: 90%;
     border: 3px solid #fedc8d;
     transform: scale(0.99);
   }
@@ -161,11 +161,7 @@
   .input-section{
     width: 92%;
   }
-  form{
-      height: 90vh;
-    width: 80%;
-    border: 3px solid #fedc8d;
-  }
+  
 
   form h2{
     margin-top: 8vh;
@@ -185,7 +181,7 @@
 @media (max-width: 320px){
   form{
     height: 90vh;
-    width: 80%;
+    width: 90%;
     border: 3px solid #fedc8d;
     transform: scale(0.99);
   }
