@@ -146,6 +146,17 @@
 }
 
 @media (max-width: 360px){
+  .vk-sect img{
+    transform: scale(0.5);
+    margin-top: -80px;
+  }
+  .txt{
+    width: 60%;
+  }
+  .txt h4{
+    width: 100%;
+  }
+
   .figures{
     display: none;
   }
@@ -304,6 +315,17 @@
 }
 
 @media (max-width: 320px){
+  .vk-sect img{
+    transform: scale(0.5);
+    margin-top: -80px;
+  }
+  .txt{
+    width: 60%;
+  }
+  .txt h4{
+    width: 100%;
+  }
+
   .figures{
     display: none;
   }
@@ -496,6 +518,16 @@
 }
 
 @media (max-width: 820px) and (min-width: 620px){
+  .vk-sect img{
+    transform: scale(0.5);
+    margin-top: -80px;
+  }
+  .txt{
+    width: 60%;
+  }
+  .txt h4{
+    width: 100%;
+  }
   .button{
     width: 55%;
   }
