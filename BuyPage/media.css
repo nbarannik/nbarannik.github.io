@@ -35,6 +35,7 @@
     height: 90vh;
     width: 80%;
     border: 3px solid #fedc8d;
+    transform: scale(0.99);
   }
 
   form h2{
