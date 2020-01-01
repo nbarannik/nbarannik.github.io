@@ -161,7 +161,7 @@
   .input-section{
     width: 92%;
   }
-  
+
 
   form h2{
     margin-top: 8vh;
@@ -292,6 +292,7 @@
 }
 
 @media (max-width: 820px) and (min-width: 620px){
+  
   form{
     height: 90vh;
     width: 80%;
