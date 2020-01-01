@@ -202,7 +202,11 @@ a:active{
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
+
+}
+.about{
+
 }
 .card{
   display: -webkit-flex;
