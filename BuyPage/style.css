@@ -5,6 +5,9 @@ body{
 
 }
 
+  form{
+    transform: scale(0.8);
+  }
 
 header{
   background: url(images/HeaderBG.png) no-repeat;
@@ -96,7 +99,9 @@ form p{
   color: #aad9da;
 }
 
-
+.header-txt p{
+  font-size: 1.3rem;
+}
 
 footer {
   display: -webkit-flex;

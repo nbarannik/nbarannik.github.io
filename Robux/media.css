@@ -30,7 +30,12 @@
     transform: scale(0.5);
     margin-top: -80px;
   }
-
+  .txt{
+    width: 60%;
+  }
+  .txt h4{
+    width: 100%;
+  }
 
   .sm-header{
     font-size: 1.8rem;
