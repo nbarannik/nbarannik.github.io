@@ -5,9 +5,7 @@ body{
 
 }
 
-  form{
-    transform: scale(0.8);
-  }
+
 
 header{
   background: url(images/HeaderBG.png) no-repeat;
@@ -42,6 +40,7 @@ form{
   width: 60%;
   border: 5px solid #fedc8d;
   border-radius: 30px;
+  transform: scale(2);
 }
 
 #corner-top{
@@ -86,7 +85,7 @@ form p{
   display: -ms-flex;
   display: flex;
   align-items: center;
-  
+
   margin-left: 5%;
 }
 
