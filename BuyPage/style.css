@@ -122,6 +122,13 @@ footer a{
   transition: 0.3s;
 }
 
+section{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
+  height: 120vh;
+}
 
 .input-section{
   display: -webkit-flex;
