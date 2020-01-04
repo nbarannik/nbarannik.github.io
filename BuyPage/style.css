@@ -36,22 +36,12 @@ form{
   width: 60%;
   border: 5px solid #fedc8d;
   border-radius: 30px;
+  background: url(images/Corners.png) no-repeat;
+  background-position: center;
+  background-size: 105% 102%;
 }
 
-#corner-top{
-  transform: scale(1.5);
-  position: relative;
-  z-index: -1;
-  margin-top: 0%;
-  margin-left: 75%;
-}
-#corner-bottom{
-  height: 200px;
-  width: 200px;
-  margin-left: -80%;
-  margin-top: -7.5%;
-transform: scale(1.5);
-}
+
 .mobile-menu{
   display: none;
   position: absolute;
@@ -66,7 +56,7 @@ form h2{
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 2.5rem;
-  margin-top: -19vh;
+  margin-top: 20vh;
 }
 
 form p{
