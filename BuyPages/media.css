@@ -2,6 +2,7 @@
 @media (max-width: 620px) and (min-width: 360px){
   footer a img{
     transform: scale(0.6);
+    padding: 0;
   }
   section{
     margin-top: 0;
@@ -118,6 +119,7 @@
   }
   footer a img{
     transform: scale(0.6);
+    padding: 0;
   }
   footer a{
     font-size: 0.8rem;
@@ -215,6 +217,7 @@
   }
   footer a img{
     transform: scale(0.6);
+    padding: 0;
   }
 
   footer a{
@@ -346,6 +349,7 @@
 
   footer a img{
     transform: scale(0.6);
+    padding: 0;
   }
 
   section{

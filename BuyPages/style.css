@@ -122,6 +122,10 @@ footer a{
   text-align: center;
 }
 
+footer a img{
+  padding: 5px;
+}
+
 section{
   margin-top: 0vh;
   flex-direction: column;
