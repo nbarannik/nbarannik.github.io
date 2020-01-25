@@ -119,6 +119,7 @@ footer a{
   -ms-align-items: center;
   align-items: center;
   transition: 0.3s;
+  text-align: center;
 }
 
 section{
