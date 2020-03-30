@@ -145,7 +145,9 @@
   .menu-content{
     display: hidden;
   }
-
+  footer img{
+    padding-right: 0;
+  }
 }
 
 @media (max-width: 360px){
@@ -170,10 +172,10 @@
     margin-top: -20%;
   }
   .clients{
-    min-height: 40vh;
+    height: 40vh;
   }
   .vk{
-    min-height: 135vh;
+    height: 135vh;
     margin-top: 10vh ;
     margin-bottom: 20vh ;
   }
@@ -266,7 +268,7 @@
   }
 
   .about{
-    min-height: 170vh;
+    height: 170vh;
   }
 
   footer a img{
@@ -279,7 +281,7 @@
   }
 
   section{
-    min-height: 100vh;
+    height: 100vh;
   }
 
   footer{
@@ -314,10 +316,15 @@
     display: none;
   }
 
-
+ footer img{
+   padding-right: 0;
+ }
 }
 
 @media (max-width: 320px){
+  footer img{
+    padding-right: 0;
+  }
   .vk-sect img{
     transform: scale(0.5);
     margin-top: -80px;
@@ -339,10 +346,10 @@
     margin-top: -20%;
   }
   .clients{
-    min-height: 40vh;
+    height: 40vh;
   }
   .vk{
-    min-height: 135vh;
+    height: 135vh;
     margin-top: 20vh ;
     margin-bottom: 20vh ;
   }
@@ -354,7 +361,7 @@
     margin-top: -20%;
   }
   .clients{
-    min-height: 40vh;
+    height: 40vh;
   }
 
   .vk-sect{
@@ -366,7 +373,7 @@
   }
 
   .vk{
-    min-height: 200vh;
+    height: 200vh;
   }
 
   .vk-sect img{
@@ -443,7 +450,7 @@
   }
 
   .about{
-    min-height: 170vh;
+    height: 170vh;
   }
 
   html{
@@ -459,11 +466,15 @@
   }
 
   section{
-    min-height: 100vh;
+    height: 100vh;
   }
 
   footer{
     height: 30vh;
+  }
+
+  section{
+    height: 100vh;
   }
 
 
@@ -543,7 +554,7 @@
     height: 40vh;
   }
   .vk{
-    min-height: 175vh;
+    height: 175vh;
     margin-top: 20vh ;
     margin-bottom: 20vh ;
   }
@@ -556,7 +567,7 @@
   }
 
   .vk{
-    min-height: 100vh;
+    height: 100vh;
   }
 
   .vk-sect img{
@@ -590,7 +601,7 @@
   }
 
   .about{
-    min-height: 160vh;
+    height: 160vh;
   }
   .card h4{
     font-family: 'Montserrat', sans-serif;

@@ -44,6 +44,7 @@ footer a{
   -ms-align-items: center;
   align-items: center;
   transition: 0.3s;
+  text-align: center;
 }
 
 
@@ -313,7 +314,9 @@ a:active{
     justify-content: center;
 }
 
-
+footer img{
+  padding-right: 1rem;
+}
 .vk-sect{
   display: -webkit-flex;
   display: -ms-flex;
