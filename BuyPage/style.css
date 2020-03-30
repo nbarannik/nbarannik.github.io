@@ -123,6 +123,14 @@ footer a{
 }
 
 footer img{
+  padding-right: 1rem;
+}
+
+footer a{
+  margin-right: 10vh;
+}
+
+footer img{
   padding: 1rem;
 }
 
@@ -216,8 +224,8 @@ input{
   transition: 0.3s;
   margin-top: 14vh;
   background: #FFF;
-  height: 50vh;
-  opacity: 0;
+  height: 0;
+  overflow: hidden;
   display: hidden;
   width: 100%;
   position: absolute;
@@ -227,8 +235,8 @@ input{
   align-items: center;
   font-size: 1rem;
   background: #fdcb6e;
-  border-bottom-left-radius: 30%;
-  border-bottom-right-radius: 30%;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
   box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.3);
 }
 
@@ -237,13 +245,14 @@ input{
   color: #000;
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
+
 }
 
 .menu-content-active{
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-  opacity: 1;
+  height: 50vh;
 }
 .m-menu-btn span::before,
 .m-menu-btn span::after,
@@ -254,6 +263,7 @@ input{
   width: 20px;
   height: 2px;
   background-color: #222;
+  transform: scale(1.2);
 }
 
 .m-menu-btn span::before,
@@ -265,12 +275,25 @@ input{
 
 .m-menu-btn span::before {
   transform: translateY(-5px);
-  transform-origin: right bottom;
+
 }
 
 .m-menu-btn span::after{
   transform: translateY(5px);
-  transform-origin: right top;
+
+}
+
+
+.m-menu-btn-active span:before{
+  transform: rotate(45deg);
+}
+
+.m-menu-btn-active span:after{
+  transform: rotate(-45deg);
+}
+
+.m-menu-btn-active span{
+  height: 0;
 }
 
 nav{
@@ -317,7 +340,7 @@ footer{
 .header-txt{
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 900;
+  font-weight: 900 !important;
   color: #FFF;
 }
 

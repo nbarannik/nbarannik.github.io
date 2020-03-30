@@ -72,8 +72,8 @@ footer a{
   transition: 0.3s;
   margin-top: 14vh;
   background: #FFF;
-  height: 50vh;
-  opacity: 0;
+  height: 0vh;
+  overflow:hidden;
   display: hidden;
   width: 100%;
   position: absolute;
@@ -101,7 +101,7 @@ footer a{
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-  opacity: 1;
+  height: 50vh;
 }
 .m-menu-btn span::before,
 .m-menu-btn span::after,
@@ -112,6 +112,7 @@ footer a{
   width: 20px;
   height: 2px;
   background-color: #222;
+  transform: scale(1.2);
 }
 
 .m-menu-btn span::before,
@@ -123,12 +124,23 @@ footer a{
 
 .m-menu-btn span::before {
   transform: translateY(-5px);
-  transform-origin: right bottom;
 }
 
 .m-menu-btn span::after{
   transform: translateY(5px);
-  transform-origin: right top;
+
+}
+
+.m-menu-btn-active span:before{
+  transform: rotate(45deg);
+}
+
+.m-menu-btn-active span:after{
+  transform: rotate(-45deg);
+}
+
+.m-menu-btn-active span{
+  height: 0;
 }
 
 nav{
@@ -223,11 +235,12 @@ a:active{
   -ms-align-items: center;
   align-items: center;
   justify-content: space-evenly;
-  border-radius: 10px;
-  width: 15%;
+  border-radius: 30px;
+  background: #f8f8f8;
+  width: 14%;
   height: 30%;
   padding: 1%;
-  border: 3px solid #fedc8d;
+  border: 5px solid #fedc8d;
 }
 
 .card img{
@@ -316,6 +329,10 @@ a:active{
 
 footer img{
   padding-right: 1rem;
+}
+
+footer a{
+  margin-right: 10vh;
 }
 .vk-sect{
   display: -webkit-flex;

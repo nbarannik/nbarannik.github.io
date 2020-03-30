@@ -1,9 +1,29 @@
 
 @media (max-width: 620px) and (min-width: 360px){
-  footer img{
-    transform: scale(0.6);
-    padding: 0;
+
+  footer{
+    height: 40vh;
+    width: 120%;
+    transform: translateX(-9%);
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
   }
+
+  footer a{
+    margin-right: 0;
+    margin-bottom: -20px;
+    
+    transform: scale(0.6);
+  }
+
+  footer a img{
+    padding-right: 10px;
+  }
+
   section{
     margin-top: 0;
     height: 120vh;
@@ -14,14 +34,9 @@
     width: 20rem;
   }
 
-  footer{
-    height: 30vh;
-  }
 
-  footer a{
-    font-size: 0.8rem;
-    margin-bottom: 3vh;
-  }
+
+
 
   .input-section img{
     transform: scale(0.5);
@@ -117,14 +132,27 @@
     border: 3px solid #fedc8d;
     transform: scale(0.99);
   }
-  footer img{
-    transform: scale(0.6);
-    padding: 0;
+
+  footer{
+    height: 40vh;
+    width: 120%;
+    transform: translateX(-9%);
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
   }
+
   footer a{
-    font-size: 0.8rem;
-    margin-bottom: 2vh;
-    margin-left: 5%;
+    margin-right: 0;
+    margin-bottom: -20px;
+    transform: scale(0.6);
+  }
+
+  footer a img{
+    padding-right: 10px;
   }
 
   section{
@@ -137,9 +165,7 @@
     width: 20rem;
   }
 
-  footer{
-    height: 25vh;
-  }
+
 
   #logo{
     margin-top: -10%;
@@ -215,14 +241,28 @@
   html{
     width: 119%;
   }
-  footer a img{
-    transform: scale(0.6);
-    padding: 0;
+
+  footer{
+    height: 40vh;
+    width: 120%;
+    transform: translateX(-9%);
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
   }
 
   footer a{
-    font-size: 0.8rem;
-    margin-bottom: 3vh;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-bottom: -20px;
+    transform: scale(0.6);
+  }
+
+  footer a img{
+    padding-right: 10px;
   }
 
   section{
@@ -235,9 +275,7 @@
     width: 20rem;
   }
 
-  footer{
-    height: 30vh;
-  }
+
 
   section{
     height: 100vh;
