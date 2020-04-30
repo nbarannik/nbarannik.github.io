@@ -1,0 +1,1351 @@
+
+
+
+
+@media (max-width: 620px) and (min-width: 360px){
+
+
+
+  footer a{
+    margin-right: 0;
+    margin-bottom: 3%;
+    transform: scale(0.6);
+  }
+
+  footer a:last-child{
+    display: none;
+  }
+
+  h3{
+    font-size: 1rem;
+    width: 20rem;
+  }
+
+  form{
+    height: 150vh;
+    width: 90%;
+    border: 3px solid #fedc8d;
+    transform: scale(1) translateY(-17vh);
+  }
+
+  #mini-logo{
+    transform: scale(0.5) translateY(-10vh) !important;
+  }
+
+  body{
+    height: 100%;
+  }
+
+  form h2{
+    margin-top: 0;
+    font-size: 1.6rem;
+  }
+
+  footer{
+    height: 30vh;
+    width: 100%;
+    transform: translateY(-10vh);
+  }
+
+
+  .input-section{
+    width: 92%;
+  }
+
+
+  form h2{
+    margin-top: 0;
+    font-size: 1.6rem;
+  }
+
+  form p{
+    font-size: 0.9rem;
+    margin-top: 1vh;
+  }
+
+  header{
+    height: 80vh;
+    background: url(images/HeaderBG.png) no-repeat;
+    background-position: top center;
+    background-size: 140% 90%;
+  }
+  .header-txt h1{
+    margin-top: 20%;
+    margin-bottom: 5%;
+    font-size: 2.6rem;
+  }
+  #logo{
+    transform: scale(0.5);
+    margin-top: -5%;
+    margin-left: -5% ;
+  }
+
+  .m-menu-btn{
+    display: block;
+    height: 50px;
+    width: 50px;
+  }
+
+  .mobile-menu{
+    display: block;
+  }
+
+  nav{
+    justify-content: space-between;
+    -ms-align-items: flex-start;
+    align-items: flex-start;
+    height: 13vh;
+  }
+  .menu{
+    display: none;
+  }
+  .icon{
+    margin-left: 7%;
+  }
+  .header-txt p{
+    font-size: 1rem;
+  }
+  #corner-top,
+  #corner-bottom{
+    display: none;
+  }
+  .MoneyInp{
+    width: 100%;
+    height: 8vh;
+  }
+  #MoneyInp{
+    margin-left: 0;
+  }
+
+  .input-section img{
+    transform: scale(0.5);
+  }
+
+  .money-section{
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .input-section:first-child{
+    justify-content: center;
+  }
+
+  .input-section:last-child{
+    justify-content: center;
+  }
+
+  .money-section input:first-child{
+    margin-right: 0;
+  }
+  #RublesInp{
+    order: 2;
+  margin-left: -3%;
+  }
+
+  section{
+    margin-top: 0;
+    height: 165vh;
+  }
+
+  .input-section img:last-child{
+    transform: scaleX(0.9) scale(0.6) translateX(-8px) !important;
+
+  }
+
+  .input-section:last-child{
+
+    margin-top: 0vh;
+  }
+
+  .input-section:first-child{
+    margin-bottom: -7vh;
+  }
+
+  #arrows{
+    transform: rotate(90deg) scaleX(0.2) scaleY(0.8) ;
+  }
+  input{
+    width: 80%;
+    margin-left: 7px;
+  }
+  .figures{
+    display: none;
+  }
+  .buy-btn{
+    width: 50%;
+  }
+}
+
+@media (max-width: 360px){
+  #MoneyInp{
+    margin-left: -1.9%;
+  }
+
+
+  footer a{
+    margin-right: 0;
+    margin-bottom: 3%;
+    transform: scale(0.6);
+  }
+
+  footer a:last-child{
+    display: none;
+  }
+
+  section{
+    margin-top: 0;
+    height: 120vh;
+  }
+
+
+
+  h3{
+    font-size: 1rem;
+    width: 20rem;
+  }
+
+
+
+  #logo{
+    margin-top: -10%;
+    margin-left: -10%;
+  }
+  .header-txt h1{
+    margin-top: 10vh;
+    font-size: 2.2rem;
+    }
+
+    .mobile-menu{
+      display: block;
+    }
+
+  .header-txt p{
+    font-size: 0.9rem;
+  }
+  header{
+    height: 80vh;
+    background: url(images/HeaderBG.png) no-repeat;
+    background-position: top center;
+    background-size: 140% 90%;
+  }
+
+  #corner-top,
+  #corner-bottom{
+    display: none;
+  }
+
+  .input-section img{
+    transform: scale(0.5);
+  }
+
+  input{
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .buy-btn{
+    width: 50%;
+  }
+
+  .input-section{
+    width: 92%;
+  }
+
+
+  form h2{
+    margin-top: 8vh;
+    font-size: 1.6rem;
+  }
+
+  form p{
+    font-size: 0.9rem;
+    margin-top: 1vh;
+  }
+  .figures{
+    display: none;
+  }
+
+  section{
+    margin-top: 0;
+    height: 160vh;
+  }
+
+  h3{
+    font-size: 1rem;
+    width: 20rem;
+  }
+
+  form{
+    height: 110vh;
+    width: 90%;
+    border: 3px solid #fedc8d;
+    transform: scale(1) translateY(-20vh);
+  }
+
+  #mini-logo{
+    transform: scale(0.5) translateY(-16vh) !important;
+  }
+
+  body{
+    height: 100%;
+  }
+
+  form h2{
+    margin-top: 0;
+    font-size: 1.6rem;
+  }
+
+  footer{
+    height: 30vh;
+    width: 100%;
+    transform: translateY(-10vh);
+  }
+
+  .MoneyInp{
+    width: 100%;
+    height: 8vh;
+  }
+  #MoneyInp{
+    margin-left: 0;
+  }
+
+  .input-section img{
+    transform: scale(0.5);
+  }
+
+  .money-section{
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .input-section:first-child{
+    justify-content: center;
+  }
+
+  .input-section:last-child{
+    justify-content: center;
+  }
+
+  .money-section input:first-child{
+    margin-right: 0;
+  }
+  #RublesInp{
+    order: 2;
+  margin-left: -3%;
+  }
+
+  section{
+    margin-top: 0;
+    height: 165vh;
+  }
+
+  .input-section img:last-child{
+    transform: scaleX(0.9) scale(0.6) translateX(-8px) !important;
+
+  }
+
+  .input-section:last-child{
+
+    margin-top: 0vh;
+  }
+
+  .input-section:first-child{
+    margin-bottom: -7vh;
+  }
+
+  #arrows{
+    transform: rotate(90deg) scaleX(0.2) scaleY(0.8) ;
+  }
+  input{
+    width: 80%;
+    margin-left: 7px;
+  }
+  .figures{
+    display: none;
+  }
+  .buy-btn{
+    width: 50%;
+  }
+}
+
+@media (max-width: 320px){
+  #mini-logo{
+    top: 6vh !important;
+    left: 17% !important;
+    transform: scale(0.4) !important;
+  }
+  #MoneyInp{
+    margin-left: -1.9%;
+  }
+  form{
+    height: 150vh;
+    width: 90%;
+    border: 3px solid #fedc8d;
+    transform: scale(0.99);
+  }
+  html{
+    width: 119%;
+  }
+
+  footer{
+    height: 30vh;
+    width: 100%;
+  }
+
+  footer a{
+    margin-right: 0;
+    margin-bottom: 3%;
+    transform: scale(0.6);
+  }
+
+  footer a:last-child{
+    display: none;
+  }
+
+  section{
+    margin-top: 0;
+    height: 200vh;
+  }
+
+  h3{
+    font-size: 1rem;
+    width: 20rem;
+  }
+
+
+
+  section{
+    height: 100vh;
+  }
+
+  .input-section img{
+    transform: scale(0.5);
+  }
+
+  input{
+    width: 100%;
+  }
+
+  .buy-btn{
+    width: 50%;
+  }
+  .input-section{
+    width: 92%;
+  }
+  form{
+    height: 100vh;
+    width: 80%;
+    border: 3px solid #fedc8d;
+  }
+
+  form h2{
+    margin-top: 8vh;
+    font-size: 1.6rem;
+  }
+
+  form p{
+    font-size: 0.9rem;
+    margin-top: 1vh;
+  }
+
+  body{
+    width: 100%;
+  }
+  #logo{
+    transform: scale(0.5);
+    margin-top: -10%;
+    margin-left: -10%;
+  }
+  .header-txt h1{
+    margin-top: 0vh;
+    font-size: 2.2rem;
+    }
+
+    .mobile-menu{
+      display: block;
+    }
+
+  .header-txt p{
+    font-size: 0.9rem;
+  }
+
+  section{
+    margin-top: 0;
+    height: 130vh;
+  }
+
+  h3{
+    font-size: 1rem;
+    width: 20rem;
+  }
+
+  header{
+    width: 380px;
+    height: 80vh;
+    background: url(images/HeaderBG.png) no-repeat;
+    background-position: top center;
+    background-size: 100% 100%;
+  }
+  .menu{
+    display: none;
+  }
+
+  .m-menu-btn{
+    display: block;
+    height: 50px;
+    width: 50px;
+  }
+
+  .mobile-menu{
+    width: 100%;
+    right: -30;
+  }
+  #corner-top,
+  #corner-bottom{
+    display: none;
+  }
+  .figures{
+    display: none;
+  }
+
+  section{
+    margin-top: 0;
+    height: 200vh;
+  }
+
+  h3{
+    font-size: 1rem;
+    width: 20rem;
+  }
+
+  form{
+    height: 150vh;
+    width: 90%;
+    border: 3px solid #fedc8d;
+    transform: scale(1) translateY(-20vh);
+  }
+
+  #mini-logo{
+    transform: scale(0.5) translateY(-10vh) !important;
+  }
+
+  body{
+    height: 100%;
+  }
+
+  form h2{
+    margin-top: 0;
+    font-size: 1.6rem;
+  }
+
+  footer{
+    height: 30vh;
+    width: 100%;
+    transform: translateY(-10vh);
+  }
+
+  .MoneyInp{
+    width: 100%;
+    height: 8vh;
+  }
+  #MoneyInp{
+    margin-left: 0;
+  }
+
+  .input-section img{
+    transform: scale(0.5);
+  }
+
+  .money-section{
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .input-section:first-child{
+    justify-content: center;
+  }
+
+  .input-section:last-child{
+    justify-content: center;
+  }
+
+  .money-section input:first-child{
+    margin-right: 0;
+  }
+  #RublesInp{
+    order: 2;
+  margin-left: -3%;
+  }
+
+  section{
+    margin-top: 0;
+    height: 200vh;
+  }
+
+  .input-section img:last-child{
+    transform: scaleX(0.9) scale(0.6) translateX(-8px) !important;
+
+  }
+
+  .input-section:last-child{
+
+    margin-top: 0vh;
+  }
+
+  .input-section:first-child{
+    margin-bottom: -7vh;
+  }
+
+  #arrows{
+    transform: rotate(90deg) scaleX(0.2) scaleY(0.8) ;
+  }
+  input{
+    width: 80%;
+    margin-left: 7px;
+  }
+  .figures{
+    display: none;
+  }
+  .buy-btn{
+    width: 50%;
+  }
+}
+
+@media (max-width: 820px) and (min-width: 620px){
+
+  form{
+    height: 90vh;
+    width: 80%;
+    border: 3px solid #fedc8d;
+    transform: scale(0.99);
+  }
+  footer a{
+    font-size: 0.8rem;
+    margin-bottom: 3vh;
+  }
+
+  footer img{
+    transform: scale(0.6);
+    padding: 0;
+  }
+
+
+  section{
+    margin-top: 0;
+    height: 120vh;
+  }
+
+  h3{
+    font-size: 1rem;
+    width: 20rem;
+  }
+
+  footer{
+    height: 30vh;
+  }
+    header{
+      height: 80vh;
+    }
+
+    .m-menu-btn{
+      display: block;
+      transform: scale(1.8);
+    }
+
+    .mobile-menu{
+      display: block;
+    }
+
+    .header-txt h1{
+      margin-bottom: 5vh;
+      font-size: 4rem;
+      }
+
+    .header-txt p{
+      font-size: 1.5rem;
+    }
+
+    #logo{
+      transform: scale(0.8);
+    }
+
+    .menu{
+      display: none;
+    }
+
+    #corner-top,
+    #corner-bottom{
+      display: none;
+    }
+
+
+
+    input{
+      width: 100%;
+    }
+
+    .buy-btn{
+      width: 50%;
+    }
+    .input-section{
+      width: 92%;
+    }
+    form{
+        height: 90vh;
+      width: 80%;
+      border: 3px solid #fedc8d;
+    }
+
+    form h2{
+      margin-top: 0vh;
+      font-size: 1.6rem;
+    }
+
+    form p{
+      font-size: 0.9rem;
+      margin-top: 1vh;
+    }
+    .figures{
+      display: none;
+    }
+    body{
+      margin: 0;
+      padding: 0;
+      overflow-x:hidden;
+
+    }
+
+      form{
+        transform: scale(0.9);
+      }
+
+    header{
+      background: url(images/HeaderBG.png) no-repeat;
+      background-position: top center;
+      background-size: 100% 90%;
+      height: 100vh;
+    }
+
+    #logo{
+      transform: scale(0.8);
+      margin-top: -1%;
+      margin-left: 2%;
+    }
+
+    #mini-logo{
+      z-index: 100000;
+      transform: scale(0.8) translateY(20vh);
+    }
+
+    h3{
+      position: relative;
+
+      z-index: 10000;
+    }
+
+    form{
+      height: 160vh;
+      width: 80%;
+    }
+
+    form{
+      transform: scale(0.9) translateY(-20vh);
+    }
+
+    .MoneyInp{
+      width: 100%;
+      height: 8vh;
+    }
+    #MoneyInp{
+      margin-left: 0;
+    }
+
+    .input-section img{
+      transform: scale(0.5);
+    }
+
+    .money-section{
+      display: -webkit-flex;
+      display: -ms-flex;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+
+    .input-section:first-child{
+      justify-content: center;
+    }
+
+    .input-section:last-child{
+      justify-content: center;
+    }
+
+    .money-section input:first-child{
+      margin-right: 0;
+    }
+    #RublesInp{
+      order: 2;
+    margin-left: -3%;
+    }
+
+    section{
+      margin-top: 0;
+      height: 130vh;
+    }
+
+    .input-section img:last-child{
+      transform: scaleX(0.9) scale(0.6) translateX(-8px) !important;
+
+    }
+
+    .input-section:last-child{
+
+      margin-top: 0vh;
+    }
+
+    .input-section:first-child{
+      margin-bottom: -7vh;
+    }
+
+    #arrows{
+      transform: rotate(90deg) scaleX(0.1) scaleY(0.5) ;
+    }
+    input{
+      width: 80%;
+      margin-left: 7px;
+    }
+    .figures{
+      display: none;
+    }
+    .buy-btn{
+      width: 50%;
+    }
+}
+
+
+
+@media (max-width: 820px) and (min-width: 620px) and (min-height: 499px) and (max-height: 700px){
+  .header-txt h1{
+    margin-bottom: 5vh;
+    margin-top: -7vh;
+    font-size: 3rem;
+    }
+
+  .header-txt p{
+    font-size: 1rem;
+  }
+
+  .sm-header{
+    font-size: 1.8rem;
+  }
+  footer a{
+    font-size: 0.8rem;
+    margin-bottom: 3vh;
+
+  }
+
+  footer a img{
+    transform: scale(0.6);
+  }
+
+  section{
+    height: 210vh;
+  }
+
+  footer{
+    height: 40vh;
+    transform: translateY(-20vh);
+  }
+
+  body{
+    height: 100%;
+  }
+
+  #logo{
+    transform: scale(0.3);
+    margin-left: -10px;
+    margin-top: -30px;
+  }
+
+  .menu{
+    margin-top: 0;
+    width: 50%;
+    display: block;
+  }
+
+  .mobile-menu{
+    display: none;
+  }
+
+
+
+  form{
+    height: 180vh !important;
+  }
+  form h2{
+    margin-top: 0vh;
+  }
+
+
+
+  h3{
+    position: relative;
+
+    z-index: 10000;
+  }
+
+  .menu-item{
+    font-size: 0.9rem;
+    font-weight: 900;
+    transition: 0.5s;
+    margin-right: 20px;
+  }
+
+  body{
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden;
+
+  }
+
+    form{
+      transform: scale(0.9);
+    }
+
+  header{
+    background: url(images/HeaderBG.png) no-repeat;
+    background-position: top center;
+    background-size: 100% 90%;
+    height: 85vh;
+  }
+
+  #logo{
+    transform: scale(0.5);
+    margin-left: -10px;
+    margin-top: -30px;
+  }
+
+  #mini-logo{
+    z-index: 100000;
+    transform: scale(0.7) translateY(-10vh);
+  }
+
+  h3{
+    position: relative;
+
+    z-index: 10000;
+  }
+
+  form{
+    height: 160vh;
+    width: 80%;
+    transform: scale(0.9) translateY(-30vh);
+  }
+
+
+}
+
+@media (max-width: 1200px) and (min-width: 820px) and (min-height: 1500px) and (max-height: 2050px){
+     .figures{
+      display: none;
+    }
+    form{
+        height:80vh;
+        width: 85%;
+    }
+  header{
+      height:40vh;
+    }
+
+    .sm-header{
+      font-size: 1.8rem;
+    }
+
+    input{
+        height: 4vh;
+    }
+
+    footer a{
+      font-size: 0.8rem;
+      margin-bottom: 3vh;
+      margin-right: 5vh;
+    }
+
+    footer a img{
+      transform: scale(0.6);
+    }
+
+  .header-txt h1{
+    margin-bottom: 5vh;
+    margin-top: 1vh;
+    font-size: 4rem;
+    }
+
+  .header-txt p{
+    font-size: 1.5rem;
+  }
+
+  #mini-logo{
+    z-index: 100000;
+    transform: scale(0.7) translateY(-8vh);
+  }
+
+
+  #logo{
+    transform: scale(0.5);
+    margin-left: -10px;
+    margin-top: -30px;
+  }
+
+
+
+  footer{
+      transform: translateY(5vh);
+      height:30vh;
+  }
+  body, html{
+    height: 100%;
+  }
+
+   .menu{
+    display: none;
+  }
+
+  .m-menu-btn{
+    display: block;
+    height: 50px;
+    width: 50px;
+    transform: scale(1.6);
+  }
+
+  .mobile-menu{
+    display: block;
+    width: 100%;
+    top:1vh;
+  }
+
+  .menu-content-active{
+      height: 20vh;
+  }
+  section{
+      height: 80vh;
+  }
+
+  .MoneyInp{
+    width: 100%;
+    height: 8vh;
+  }
+  #MoneyInp{
+    margin-left: 0;
+  }
+
+  .input-section img{
+    transform: scale(0.5);
+  }
+
+  .money-section{
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .input-section:first-child{
+    justify-content: center;
+  }
+
+  .input-section:last-child{
+    justify-content: center;
+  }
+
+  .money-section input:first-child{
+    margin-right: 0;
+  }
+  #RublesInp{
+    order: 2;
+  margin-left: -3%;
+  }
+
+  section{
+    margin-top: 0;
+    height: 165vh;
+  }
+
+  .input-section img:last-child{
+    transform: scaleX(0.9) scale(0.6) translateX(-8px) !important;
+
+  }
+
+  .input-section:last-child{
+
+    margin-top: 0vh;
+  }
+
+  .input-section:first-child{
+    margin-bottom: -7vh;
+  }
+
+  #arrows{
+    transform: rotate(90deg) scaleX(0.2) scaleY(0.8) ;
+  }
+  input{
+    width: 80%;
+    margin-left: 7px;
+  }
+  .figures{
+    display: none;
+  }
+  .buy-btn{
+    width: 50%;
+  }
+}
+
+
+
+@media (max-width: 820px) and (min-width: 620px) and (min-height: 499px) and (max-height: 700px){
+
+  header{
+      height:70vh;
+    }
+
+    .sm-header{
+      font-size: 1.8rem;
+    }
+
+    footer a{
+      font-size: 0.8rem;
+      margin-bottom: 3vh;
+    }
+
+    footer a img{
+      transform: scale(0.6);
+    }
+
+  .header-txt h1{
+    margin-bottom: 5vh;
+
+    font-size: 2rem;
+    }
+
+  .header-txt p{
+    font-size: 0.8rem;
+  }
+
+  #mini-logo{
+    z-index: 100000;
+    transform: scale(0.7) translateY(-8vh);
+  }
+
+  .mobile-menu{
+    display: none;
+  }
+  #logo{
+    transform: scale(0.5);
+    margin-left: -10px;
+    margin-top: -30px;
+  }
+
+  .menu{
+    margin-top: 0;
+    width: 50%;
+    display: block;
+  }
+
+  .menu-item{
+    font-size: 0.9rem;
+    font-weight: 900;
+    transition: 0.5s;
+    margin-right: 20px;
+  }
+
+  footer{
+      transform: translateY(-20vh);
+  }
+  body{
+    height: 100%;
+  }
+}
+
+
+@media (max-width: 1024px) and (min-width: 700px) and (min-height: 1000px) and (max-height: 1365px){
+
+  header{
+      height:70vh;
+    }
+
+    .sm-header{
+      font-size: 1.8rem;
+    }
+
+    footer a{
+      font-size: 0.8rem;
+      margin-bottom: 3vh;
+    }
+
+    footer a img{
+      transform: scale(0.6);
+    }
+
+  .header-txt h1{
+    margin-bottom: 5vh;
+    margin-top: 1vh;
+    font-size: 3rem;
+    }
+
+  .header-txt p{
+    font-size: 1rem;
+  }
+
+  #mini-logo{
+    z-index: 100000;
+    transform: scale(0.7) translateY(-8vh);
+  }
+
+  .mobile-menu{
+    display: none;
+  }
+  #logo{
+    transform: scale(0.5);
+    margin-left: -10px;
+    margin-top: -30px;
+  }
+
+  .menu{
+    margin-top: 0;
+    width: 50%;
+    display: block;
+  }
+
+  .menu-item{
+    font-size: 0.9rem;
+    font-weight: 900;
+    transition: 0.5s;
+    margin-right: 20px;
+  }
+
+  footer{
+      transform: translateY(-20vh);
+  }
+  body{
+    height: 100%;
+  }
+}
+
+@media (max-width: 1281px) and (min-width: 820px) and (min-height: 700px) and (max-height: 1000px){
+
+  body{
+    overflow-x: hidden;
+  }
+  .figures{
+    display: none;
+  }
+
+  body{
+    height: 100%;
+  }
+  .header-txt h1{
+    margin-bottom: 5vh;
+    margin-top:-2vh;
+    font-size: 3rem;
+    }
+
+  .header-txt p{
+    font-size: 1rem;
+  }
+
+  #logo{
+    transform: scale(0.7);
+
+  }
+
+  #mini-logo{
+    z-index: 100000;
+    transform: scale(0.7) translateY(-8vh);
+  }
+
+  .sm-header{
+    font-size: 1.8rem;
+  }
+
+  footer a{
+    font-size: 0.8rem;
+    margin-bottom: 3vh;
+  }
+
+  footer a img{
+    transform: scale(0.6);
+  }
+
+  section{
+    height: 145vh;
+  }
+
+  footer{
+    height: 40vh;
+  }
+
+  header{
+      height: 80vh;
+    }
+  .menu{
+    margin-top: 0;
+    width: 42%;
+    display: block;
+  }
+
+  .menu-item{
+    font-size: 1.1rem;
+    font-weight: 900;
+    transition: 0.5s;
+    margin-right: 20px;
+  }
+  form{
+    transform: translateY(-15vh);
+  }
+}
+
+@media (max-width: 1124px) and (min-width: 820px) and (min-height: 1200px) and (max-height: 1367px){
+  header{
+    height: 70vh;
+  }
+
+  .menu-item{
+    margin-right: 5px;
+  }
+
+  .menu{
+    width: 50vw;
+  }
+  #mini-logo{
+    transform: scale(0.8) translateY(-2vh);
+  }
+  form{
+    width: 80%;
+    height: 90vh;
+    transform: translateY(-7vh);
+  }
+  section{
+    height: 100vh;
+  }
+  footer{
+    height: 40vh;
+    transform: translateY(5vh);
+  }
+
+  body{
+    height: 100%;
+  }
+  .figures{
+    display: none;
+  }
+}
