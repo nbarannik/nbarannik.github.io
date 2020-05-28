@@ -1,0 +1,217 @@
+
+//////////////HOW-TO-BUY////////////////
+
+.how-to-buy{
+  margin-top: 2vh;
+  margin-bottom: 10vh;
+  transform: scale(0.9);
+}
+
+.block{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  width: 60%;
+  margin-left: 10%;
+  margin-top: 10vh;
+
+
+  @include respond(phone-standart){
+    flex-direction: column;
+    margin-left: 0;
+    width: 90%;
+    margin: 5vh auto;
+    text-align: center;
+  }
+
+  @include respond(tab-port){
+    margin: 5vh auto;
+    .heading-secondary{
+      text-align: center;
+    }
+  }
+
+  &-right{
+    margin-left: 50%;
+    
+
+    @include respond(phone-standart){
+      margin: 0 auto;
+    }
+
+    @include respond(tab-port){
+      margin: 5vh auto;
+      margin-bottom: 5vh;
+    }
+  }
+
+  &-txt{
+    @include respond(phone-standart){
+      width: 70vw;
+      margin: 0 auto;
+    }
+
+    @include respond(tab-port){
+      width: 40vw;
+    }
+    width: 15vw;
+    text-align: center;
+    margin-top: 3vh;
+  }
+
+  &-img{
+    transform: scale(0.8);
+    margin-right: 5%;
+    transition: 0.4s;
+
+    @include respond(phone-standart){
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    @include respond(tab-port){
+      width: 50%;
+      margin: 0 auto;
+    }
+    &:hover{
+      transform: scale(1.000001);
+    }
+}
+
+
+
+}
+
+.txt-wrapper{
+  margin-left: 3%;
+}
+
+#arrow1{
+  height: 50%;
+  transform: scale(0.8);
+  margin-top:10vh;
+
+  @include respond(phone-big){
+    display: none;
+  }
+
+  @include respond(tab-port){
+    display: none;
+  }
+}
+
+#arrow2{
+  height: 50%;
+  transform: scale(0.8);
+  @include respond(phone-big){
+    display: none;
+  }
+
+  @include respond(tab-port){
+    display: none;
+  }
+}
+
+////////////////REWIEWS//////////////////////
+
+.reviews{
+  background-image: linear-gradient(to right bottom, rgba($color-primary-light,0.8),rgba($color-primary-dark, 0.8)), url(img/bg2.png);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: top;
+  height: 120vh;
+  clip-path: polygon(0 20vh, 100% 0, 100% 100vh, 0 100%);
+  box-shadow: inset 0 0 100px;
+  text-align: center;
+
+  @include respond(phone-standart){
+    height: 230vh;
+    clip-path: polygon(0 20vh, 100% 0, 100% 210vh, 0 100%);
+  }
+
+  @include respond(phone-exsmall){
+    height: 240vh;
+    clip-path: polygon(0 20vh, 100% 0, 100% 220vh, 0 100%);
+  }
+
+   h1{
+     padding-top: 25vh;
+     padding-bottom: 5vh;
+   }
+
+  a{
+    margin-top: 7vh;
+  }
+}
+
+.review-blocks{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: 0 auto;
+
+  @include respond(phone-standart){
+      height: 140vh;
+      margin: 0 auto;
+      flex-direction: column;
+      justify-content: space-around;
+  }
+
+  @include respond(phone-exsmall){
+      height: 150vh;
+      margin: 0 auto;
+      flex-direction: column;
+      justify-content: space-around;
+  }
+
+
+}
+
+.rew-block{
+  height: 31rem;
+  width: 25rem;
+  background: rgba(255,255,255,0.8);
+  text-align: center;
+  transition: 0.5s;
+
+  @include respond(phone-standart){
+      margin: 0 auto;
+  }
+
+  @include respond(tab-port){
+    transform: scale(0.8);
+  }
+
+  p{
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: -3vh;
+  }
+  img{
+    display: block;
+    transform: scale(0.6);
+    margin: 0 auto;
+  }
+
+  &:hover{
+    transform: translateY(-10px) scale(1.01);
+    background: rgba(255,255,255,1);
+    box-shadow: 0 10px 20px rgba($color-black,0.2);
+  }
+}
+
+///////////////////////VK-GROUP///////////////////////////
+
+  .vk-group{
+    text-align: center;
+    margin: 5vh auto;
+
+  }
+
+  .vk-group .btn{
+    margin-top: 10vh;
+    text-align: center;
+  }
