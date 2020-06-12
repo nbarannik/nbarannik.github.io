@@ -1,0 +1,60 @@
+a{
+  text-decoration: none;
+}
+
+.title-primary{
+  font-size: 2.5rem;
+  font-weight: bolder;
+  @include respond(tab-port){
+    font-size: 1.5rem;
+  }
+  @include respond(phone-big){
+    font-size: 1.5rem;
+  }
+  @include respond(phone-exsmall){
+    font-size: 1.2rem;
+  }
+}
+
+.best-title{
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  color: #0072ff;
+
+  @include respond(phone-exsmall){
+    font-size: 1.1rem;
+  }
+}
+
+.best-txt{
+  margin-top: 1rem;
+
+  @include respond(phone-exsmall){
+    font-size: 0.8rem;
+  }
+}
+
+.subtitle{
+  margin-top: 2rem;
+  font-weight: 500;
+
+  @include respond(phone-exsmall){
+    font-size: 0.8rem;
+    width: 70%;
+    text-align: center;
+    margin: 10px auto;
+  }
+}
+
+.card-q{
+  font-size: 1.2rem;
+  transform: translateY(-7.6rem);
+  color: #f23089;
+  &-oneline{
+    transform: translateY(-6.5rem);
+  }
+  &-a{
+    font-size: 1rem;
+    color: $color-white !important;
+  }
+}

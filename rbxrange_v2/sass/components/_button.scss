@@ -1,0 +1,42 @@
+.btn{
+    z-index: 10;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    display: inline-block;
+    transition: 0.5s;
+    @include respond(phone-standart){
+      padding: 1rem 1rem;
+    }
+    @include respond(phone-exsmall){
+      font-size: 0.7rem;
+      padding: 0.8rem 1rem;
+    }
+    &:hover{
+      transform: scale(1.1);
+    }
+
+    &-header{
+      margin-top: 1.5rem;
+    }
+    &-white{
+      background-color: $color-white;
+      color: $color-grey;
+    }
+    &-yellow{
+      background: -moz-linear-gradient(56deg, $color-yellow-light 0%, $color-yellow-dark 100%); /* FF3.6-15 */
+      background: -webkit-linear-gradient(56deg, $color-yellow-light 0%, $color-yellow-dark 100%); /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(56deg, $color-yellow-light 0%, $color-yellow-dark 100%);
+      color: $color-white;
+      text-shadow: 0px 0px 5px rgba(150, 150, 150, 1);
+      margin-top: 3rem;
+    }
+
+    &-blue{
+      background: -moz-linear-gradient(56deg, $color-blue-dark 0%, $color-blue-light 100%); /* FF3.6-15 */
+      background: -webkit-linear-gradient(56deg, $color-blue-dark 0%, $color-blue-light 100%); /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(56deg, $color-blue-dark 0%, $color-blue-light 100%);
+      color: $color-white;
+      text-shadow: 0px 0px 5px rgba(150, 150, 150, 1);
+      margin-top: 5rem;
+    }
+}

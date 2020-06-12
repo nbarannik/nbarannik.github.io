@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Robux Range - магазин робаксов</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,600&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  </head>
+  <body>
+    <div class="bg">
+      <div class="logo logo-anim">
+      <img src="img/Logo_img.png" alt="" class="img-anim">
+      <img src="img/Logo_txt.png" alt="" class="txt-anim">
+      </div>
+    </div>
+
+    <div class="figures">
+      <img src="img/cube.png" alt="" class="bg-img" style="top:37rem; right: 5rem; height: 15rem; ">
+      <img src="img/splash3.png" alt="" class="bg-img" style="top:55rem; left: -5rem; transform: scale(1.2)">
+      <img src="img/triangle.png" alt="" class="bg-img" style="top:100rem; left: 10rem; transform: scale(1);">
+      <img src="img/triangle.png" alt="" class="bg-img" style="top:150rem; right: 5rem; transform: scale(1) rotate(70deg);">
+    </div>
+
+      <div class="header">
+        <div class="particles" id="particles">
+
+        </div>
+
+        <div class="navigation">
+          <a href="" class="menu-button">Группа ВК</a>
+          <a href="" class="menu-button">Отзывы</a>
+          <div class="logo">
+          <img src="img/Logo_img.png" alt="" class="img-logo">
+          <img src="img/Logo_txt.png" alt="" class="txt-logo">
+          </div>
+          <a href="" class="menu-button">Главная</a>
+          <a href="" class="menu-button">Купить робаксы</a>
+        </div>
+
+        <div class="mobile-menu">
+          <img src="img/logo.png" class="m-logo"alt="">
+          <button onclick="MenuAnim();" class="m-menu-btn">
+            <span></span>
+          </button>
+          <div class="menu-content">
+            <a href="https://vk.com/robloxrange">Группа ВК</a>
+            <a href="https://nbarannik.github.io/BuyPage">Купить Робаксы</a>
+            <a href="">Главная</a>
+          </div>
+        </div>
+
+        <div class="line"></div>
+
+        <div class="titles-form">
+          <h1 class="titles-form-primary">ROBLOX RANGE</h1>
+          <h4 class="titles-form-secondary">Лучший сайт по продаже робаксов!</h4>
+          <a href="" class="btn btn-white btn-header">Купить робаксы</a>
+        </div>
+
+      </div>
+
+
+
+      <div class="info-panels">
+        <div class="panel">
+          <img src="img/people.png" alt="" class="panel-img">
+          <div class="txt-info">
+            <p class="nums">25,000</p>
+            <p class="words">Онлайн</p>
+          </div>
+        </div>
+
+        <div class="panel">
+          <img src="img/rbx.png" alt="" class="panel-img">
+          <div class="txt-info">
+            <p class="nums nums-small">100,000</p>
+            <p class="words">R$ Доступно</p>
+          </div>
+        </div>
+
+        <div class="panel">
+          <img src="img/rbx_get.png" alt="" class="panel-img">
+          <div class="txt-info">
+            <p class="nums nums-exsmall">2,000,000</p>
+            <p class="words">R$ Продано</p>
+          </div>
+        </div>
+      </div>
+
+      <section>
+        <div class="our-best">
+          <h2 class="title-primary">Наши преимущества:</h2>
+          <div class="best-wrapper">
+          <div class="best-card">
+            <img src="img/speed.png" alt="" class="best-img">
+            <h3 class="best-title">Скорость</h3>
+            <p class="best-txt">У нас вы получите <br />
+ свой заказ в течение <br />
+ 5-10 минут после покупки</p>
+          </div>
+
+          <div class="best-card">
+            <img src="img/security.png" alt="" class="best-img">
+            <h3 class="best-title" style="color:#d42fb9 !important;">Безопасность</h3>
+            <p class="best-txt">Мы даем гарантию,<br />
+ что ваши робуксы <br />
+ прийдут к вам на счет!</p>
+          </div>
+
+          <div class="best-card">
+            <img src="img/support.png" alt="" class="best-img">
+            <h3 class="best-title" style="color:#fba931 !important;">Техподдержка</h3>
+            <p class="best-txt">Есть вопросы? <br />
+ Наши специалисты <br />
+ ответят на них!</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="reviews">
+          <h1 class="title-primary">У нас много довольных клиентов!</h1>
+          <h3 class="subtitle">Прочитать отзывы вы можете в нашей группе ВК</h3>
+          <a href="" class="btn btn-yellow btn-main">Отзывы</a>
+        </div>
+      </section>
+
+      <section>
+        <div class="questions">
+          <h1 class="title-primary">Частые вопросы:</h1>
+
+          <div class="cards-wrapper">
+
+            <!--LINE1 -->
+            <div class="card">
+              <div class="card-side">
+              <div class="card-front">
+                <img src="img/card-blue.png" alt="">
+              <div class="card-q" style="color: #4e89ff;">Не пришли робаксы,
+<br />
+ что делать?
+            </div>
+            </div>
+            <div class="card-back">
+              <img src="img/card-blue-back.png" alt="">
+            <div class="card-q card-q-a" style="color: #f23089; font-size:1rem; transform: translateY(-9rem) !important; padding: 2%;">Если вам не пришли робаксы в течение 5 минут, то напишите нам в вк, и мы решим вашу проблему.
+          </div>
+          </div>
+          </div>
+          </div>
+
+
+
+          <div class="card">
+              <div class="card-side">
+              <div class="card-front">
+                <img src="img/card-yellow.png" alt="">
+              <div class="card-q card-q-oneline" style="color: #cfa62c;">Когда будет пополнение?
+            </div>
+            </div>
+            <div class="card-back">
+              <img src="img/cardyellow-back.png" alt="">
+            <div class="card-q card-q-a" style="color: #f23089; transform: translateY(-9.4rem) !important; padding: 2%;">Робаксы пополняются ежедневно в больших количествах, мы стараемся держать планку и не сбавлять обороты поставок.
+          </div>
+          </div>
+          </div>
+          </div>
+
+            <div class="card">
+              <div class="card-side">
+              <div class="card-front">
+                <img src="img/card-pink.png" alt="">
+              <div class="card-q" style="color: #f23089;">Будет ли более
+  <br />
+   выгодный курс?
+            </div>
+            </div>
+
+            <div class="card-back">
+              <img src="img/card-pink-bg.png" alt="">
+            <div class="card-q card-q-a" style="color: #f23089; transform: translateY(-9rem) !important; font-size:0.9rem; padding:0.5rem;">Курса выгоднее в ближайшее время не будет, обо всех новостях по изменению курса вы сможете узнать в группе вк.
+          </div>
+          </div>
+          </div>
+          </div>
+
+            <!--LINE2 -->
+            <div class="card">
+              <div class="card-side">
+              <div class="card-front">
+                <img src="img/card-pink.png" alt="">
+              <div class="card-q" style="color: #f23089;">Дадите бесплатно
+<br />
+ робуксов?
+            </div>
+            </div>
+
+            <div class="card-back">
+              <img src="img/card-pink-bg.png" alt="">
+            <div class="card-q card-q-a" style="color: #f23089;">Не даём ничего бесплатно.<br /> Даже не обсуждается.
+          </div>
+          </div>
+          </div>
+          </div>
+
+          <div class="card">
+            <div class="card-side">
+            <div class="card-front">
+              <img src="img/card-blue.png" alt="">
+            <div class="card-q" style="color: #4e89ff;">Почему комиссия
+<br />
+большая? Можно ли
+<br />
+убрать?
+          </div>
+          </div>
+
+          <div class="card-back">
+            <img src="img/card-blue-back.png" alt="">
+          <div class="card-q card-q-a" style="color: #f23089; transform: translateY(-9rem) !important; font-size:0.9rem; padding:0.5rem;">Комиссия всего лишь пару рублей. Убрать - никак. Комиссия идёт создателю платёжной системы на нашем сайте и мы не имеем права ее убирать
+        </div>
+        </div>
+        </div>
+        </div>
+
+        <div class="card">
+          <div class="card-side">
+          <div class="card-front">
+            <img src="img/card-yellow.png" alt="">
+          <div class="card-q card-q-oneline" style="color: #cfa62c;">Нужен ли вам пиар?
+        </div>
+        </div>
+
+        <div class="card-back">
+          <img src="img/cardyellow-back.png" alt="">
+        <div class="card-q card-q-a" style="color: #f23089;">Да, мы заинтересованы в пиаре. Рассмотрим сотрудничество с людьми от 3500 подписчиков.
+      </div>
+      </div>
+      </div>
+      </div>
+
+    </div>
+      </section>
+
+      <section>
+        <div class="vk-sect">
+          <img src="img/vk-big.png" class="vk-sect-img" alt="">
+          <div class="wrapper-txt">
+          <h1 class="title-primary">Остались вопросы:</h1>
+          <a href="" class="btn btn-blue btn-main">Обратиться в техподдержку</a>
+          </div>
+        </div>
+      </section>
+
+
+      <div class="footer">
+        <div class="particles-footer" id="particles-footer">
+
+        </div>
+        <div class="wrapper">
+          <div class="txt-wrapper">
+          <div class="footer-link-block">
+            <img src="img/policy.png" alt="" class="footer-img">
+            <a href="" class="footer-link">Пользовательское соглашение</a>
+          </div>
+
+          <div class="footer-link-block">
+            <img src="img/vk-small.png" alt="" class="footer-img">
+            <a href="" class="footer-link">Группа вк</a>
+          </div>
+
+          </div>
+          </div>
+          <p class="down-title">© rbxrange Все права защищены</p>
+      </div>
+
+      <script type="text/javascript" src="js/MenuScript.js"></script>
+      <script src="libs/particles/particles.min.js"></script>
+      <script src="js/main.js"></script>
+  </body>
+</html>

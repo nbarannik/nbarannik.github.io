@@ -1,0 +1,21 @@
+*,
+*::after,
+*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html{
+  // This defies what 1rem is
+  overflow-x: hidden;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: $color-grey;
+}
+
+body{
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
